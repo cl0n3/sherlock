@@ -12,13 +12,13 @@ import httplib
 import requests
 import csv
 
-httplib.debuglevel = 1
-httplib.HTTPConnection.debuglevel = 1
+#jhttplib.debuglevel = 1
+#httplib.HTTPConnection.debuglevel = 1
 
 # Try to connect
 
 try:
-    conn=psycopg2.connect("dbname='sherlock' host='localhost' user='postgres' password='password'")
+    conn=psycopg2.connect("dbname='vagrant' host='localhost' user='vagrant' password='password'")
 except Exception as e:
     print(e)
     print "I am unable to connect to the database."
