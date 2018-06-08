@@ -7,7 +7,7 @@ drop table spending_group;
 drop table reporting_group;
 
 create table trade (
-	trade_id serial primary key,
+	id serial primary key,
 	price numeric not null,
 	volume integer not null,
 	symbol char(3) not null,
