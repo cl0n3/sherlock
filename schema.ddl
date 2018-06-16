@@ -6,13 +6,24 @@ drop table transaction_group;
 drop table spending_group;
 drop table reporting_group;
 
+create table account (
+	id serial primary key,
+	bsb integer not null,
+	account_no integer not null,
+	name text not null
+);
+
 create table trade (
 	id serial primary key,
+	account integer not null references account(id),
 	price numeric not null,
 	volume integer not null,
 	symbol char(3) not null,
 	brokerage numeric not null,
-	time timestamp not null
+	side char(1) not null,
+	exchange_trade_id text not null,
+	time timestamp not null,
+	unique(exchange_trade_id)
 );
 
 create table price_snapshot (
@@ -25,13 +36,6 @@ create table price_snapshot (
 	close numeric not null,
 	turnover integer not null,
 	unique(date, symbol)
-);
-
-create table account (
-	id serial primary key,
-	bsb integer not null,
-	account_no integer not null,
-	name text not null
 );
 
 create table reporting_group (
