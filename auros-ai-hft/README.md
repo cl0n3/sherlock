@@ -1,13 +1,13 @@
-# AI in High-Frequency Trading — deck for Auros
+# AI & the Speed Moat — deck for Auros
 
-A [Marp](https://marp.app) presentation: how the quant giants (**XTX, Optiver, Citadel**) use AI,
-tailored for a crypto-market-making audience (**Auros**).
+A [Marp](https://marp.app) presentation on the **state of AI across industry, the economy and trading**,
+told through ~50 sourced company examples and tailored for a crypto-market-making audience (**Auros**).
 
-The argument is built around three messages:
-
-- **A — It's here.** AI is table-stakes in quant trading; competitors are already spending.
-- **B — Code = P&L.** Legacy code only matters if it's making money; AI collapses the cost of rewriting the rest.
-- **C — People.** Engineering becomes a different skill — the best people matter *more*, or you accelerate poor outcomes.
+**Thesis:** *time-to-market is the most important metric in any trading or technology business — speed is the
+moat, and AI is the multiplier.* The deck is organised around four forces that compress time-to-market —
+**(1) developer/worker productivity, (2) autonomous system building, (3) cost reduction, (4) R&D** — then a
+**crypto-trading deep-dive** (named competitors, agent-native exchanges, the on-chain agent frontier, and the
+TradFi quant bar).
 
 ## Files
 
@@ -15,7 +15,7 @@ The argument is built around three messages:
 |------|------------|
 | `deck.md` | The slides (Marp markdown). **Edit this.** Speaker notes are the `<!-- ... -->` comments. |
 | `themes/auros.css` | Dark "quant terminal" theme. Edit the `:root` colours to rebrand to Auros. |
-| `assets/*.svg` | Hand-authored charts (no dependencies): XTX & Optiver financials, the speed→signal diagram. |
+| `assets/*.svg` | Hand-authored visuals (no dependencies): time-to-market compression, AI code-adoption, latency→velocity, XTX financials. |
 | `tools/inline-assets.mjs` | Post-build step that inlines the SVGs into `deck.html` so it's a single portable file. |
 | `sources.md` | Every figure → source URL, with the verified / inference / myth key. |
 | `deck.html` | Rendered, self-contained slides — open in any browser. (`deck.pdf` / `deck.pptx` if you build them.) |
@@ -43,9 +43,9 @@ For presenter notes, export PPTX or use Marp's preview.
 
 ## Before you present — checklist
 
-- [ ] Replace the presenter name / date on the **title slide**.
-- [ ] **Confidentiality:** slides 9 & 19 use my read of Optiver internals — confirm what's cleared to share with Auros.
-- [ ] **Verify headline numbers** against primary filings (Companies House for XTX; Optiver results for Optiver) — see `sources.md`.
+- [ ] Set the date / "prepared for Auros" line on the **title slide** (presenter name intentionally omitted).
+- [ ] **Verify headline numbers** against the primary sources in `sources.md` — several are company-reported or 2026 forecasts.
+- [ ] Sanity-check the **crypto-competitor** claims you'll say out loud (most market-maker internals are flagged inference).
 - [ ] Optional: rebrand `themes/auros.css` `:root` colours; drop in an Auros logo on the title slide.
 
 ## Customising
