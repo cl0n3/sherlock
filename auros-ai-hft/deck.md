@@ -457,8 +457,6 @@ Speaker: Give them both barrels: the on-chain revenue is real and verifiable, bu
 
 ## The bar they're racing toward (TradFi quant)
 
-![w:520](assets/xtx-financials.svg)
-
 <div class="cols">
 <div>
 
@@ -470,7 +468,7 @@ Speaker: Give them both barrels: the on-chain revenue is real and verifiable, bu
 
 - **Citadel** — entered crypto market-making (Feb 2025)
 - **Renaissance / Man AHL** — decades of production ML
-- *Myth:* "XTX built on the 2017 'Attention' paper" — founded **2015** <span class="badge m">M</span>
+- All of them **scaling compute & ML spend** hard — that's the bar
 
 </div>
 </div>
@@ -478,7 +476,36 @@ Speaker: Give them both barrels: the on-chain revenue is real and verifiable, bu
 <span class="src">Companies House; Data Centre Dynamics; CoinDesk; Fortune; corporate disclosures.</span>
 
 <!--
-Speaker: TradFi is the sophistication bar — and it's pouring capital into compute and ML, while moving into crypto. Keep the myth correction; it signals rigour and pre-empts the one quant who knows XTX's founding date.
+Speaker: TradFi is the sophistication bar — pouring capital into compute and ML while moving into crypto. The next slide drills into XTX specifically, with the revenue curve.
+-->
+
+---
+
+<span class="kicker">A closer read · my hypothesis</span>
+
+## XTX: reading the revenue curve
+
+![w:560](assets/xtx-revenue-timeline.svg)
+
+<div class="cols">
+<div>
+
+- Systematic & ML-driven **from 2015** — a *deepening*, not a pivot
+- Revenue **~doubled in 2018**, then ~10×'d across the decade
+
+</div>
+<div>
+
+- *My read:* going deeper into deep learning (incl. transformers) helped compound it
+- **Honest caveats:** the 2018 jump likely pre-dates transformers in production; 2020+ is confounded by COVID **and** an entity restructure <span class="badge i">I</span>
+
+</div>
+</div>
+
+<span class="src">Revenue: Companies House via FX News Group / Finance Magnates. 2016–19 single entity; 2020+ combined — see chart note.</span>
+
+<!--
+Speaker: The data-backed version of the transformer thesis. Show the curve, make the claim as YOUR read, then own the caveats out loud — the 2018 doubling is arguably too early for transformers, and the 2020+ surge rode COVID and an accounting restructure. This is bulletproof because you've shown your work, not asserted a myth.
 -->
 
 ---

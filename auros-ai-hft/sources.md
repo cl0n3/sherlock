@@ -76,7 +76,7 @@ Citation key (matches the deck badges):
 
 ## TradFi quant bar
 - XTX — 25k GPUs; €1bn Kajaani; **Companies House** (`09415174`, `12300034`), *not HMRC* — https://find-and-update.company-information.service.gov.uk/company/09415174 · https://www.datacenterdynamics.com/en/news/xtx-markets-to-build-data-center-campus-in-kajaani-finland/
-  - 🔴 **Myth:** "XTX built its strategy on the 2017 *Attention Is All You Need* paper" — XTX founded **2015**; transformers are in the *current* stack only. Paper: https://arxiv.org/abs/1706.03762
+  - 🟡 **Presenter hypothesis (not asserted as fact):** XTX's revenue inflection reflects deepening ML / deep-learning adoption (incl. transformers post-2017). Group revenue by year (£bn): 2016 0.13 · 2017 0.15 · 2018 0.31 · 2019 0.34 · 2020 ~1.05 · 2021 1.48 · 2022 2.49 · 2023 2.01 · 2024 2.74 · 2025 3.93. **Caveats:** founded **2015** (already systematic); the 2018 ~doubling likely pre-dates transformers in production (~2–3 yr lag); the **2020 entity restructure** breaks comparability and coincides with COVID volatility. Sources: FX News Group; Finance Magnates; LeapRate; Companies House (`09415174`, `12300034`, `12832334`). Paper: https://arxiv.org/abs/1706.03762
 - Jane Street — $6B CoreWeave commitment — https://finance.yahoo.com/sectors/technology/articles/jane-street-signs-6-billion-121800153.html
 - Bridgewater — $2B AIA ML fund — https://www.bridgewater.com/aia-labs
 - Citadel — crypto market-making entry (Feb 2025) — https://www.coindesk.com/business/2025/02/24/citadel-plans-crypto-market-making-business-bloomberg
