@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#2dd4bf"/>
+    </marker>
+    <marker id="axend" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <!-- title -->
+  <text x="430" y="40" text-anchor="middle" fill="#e6edf3" font-size="21" font-weight="700">The marginal edge shifts: speed &#8594; intelligence</text>
+
+  <!-- TradFi node -->
+  <rect x="115" y="100" width="230" height="118" rx="14" fill="#161d2c" stroke="#f5b042" stroke-width="2"/>
+  <text x="230" y="135" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">TradFi HFT</text>
+  <text x="230" y="162" text-anchor="middle" fill="#cbd5e1" font-size="15">XTX &#183; Optiver &#183; Citadel</text>
+  <text x="230" y="195" text-anchor="middle" fill="#f5b042" font-size="14">edge = microsecond arms race</text>
+
+  <!-- Crypto node -->
+  <rect x="515" y="100" width="240" height="118" rx="14" fill="#161d2c" stroke="#2dd4bf" stroke-width="2"/>
+  <text x="635" y="135" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">Crypto MM</text>
+  <text x="635" y="162" text-anchor="middle" fill="#cbd5e1" font-size="15">Auros &#183; Wintermute &#183; Jump</text>
+  <text x="635" y="195" text-anchor="middle" fill="#2dd4bf" font-size="14">edge = signal + adaptivity</text>
+
+  <!-- moving arrow between nodes -->
+  <line x1="350" y1="159" x2="508" y2="159" stroke="#2dd4bf" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="429" y="148" text-anchor="middle" fill="#f5b042" font-size="14" font-weight="700">the edge moves</text>
+
+  <!-- dashed connectors to axis -->
+  <g stroke="#3a4658" stroke-width="1.4" stroke-dasharray="4 4">
+    <line x1="230" y1="218" x2="230" y2="292"/>
+    <line x1="635" y1="218" x2="635" y2="292"/>
+  </g>
+
+  <!-- axis -->
+  <line x1="80" y1="300" x2="780" y2="300" stroke="#94a3b8" stroke-width="2" marker-start="url(#axend)" marker-end="url(#axend)"/>
+  <text x="90" y="326" text-anchor="start" fill="#f5b042" font-size="14">Speed / latency (&#181;s)</text>
+  <text x="770" y="326" text-anchor="end" fill="#2dd4bf" font-size="14">Signal quality + adaptivity</text>
+
+  <!-- why-it-matters caption -->
+  <text x="430" y="362" text-anchor="middle" fill="#94a3b8" font-size="13.5" font-style="italic">Crypto settles in seconds, not microseconds — so hardware speed caps out and ML/AI becomes the differentiator.</text>
+</svg>

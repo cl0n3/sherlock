@@ -1,0 +1,15 @@
+{
+  "name": "auros-ai-hft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Presentation: AI in High-Frequency Trading — reference points (XTX, Optiver, Citadel) tailored for Auros (crypto market making).",
+  "scripts": {
+    "build": "marp deck.md --html --theme-set themes/auros.css -o deck.html && node tools/inline-assets.mjs",
+    "pdf": "marp deck.md --html --allow-local-files --theme-set themes/auros.css -o deck.pdf",
+    "pptx": "marp deck.md --html --allow-local-files --theme-set themes/auros.css -o deck.pptx",
+    "watch": "marp deck.md --html --theme-set themes/auros.css --watch -o deck.html"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.4.0"
+  }
+}
