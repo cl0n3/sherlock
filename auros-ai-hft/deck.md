@@ -333,11 +333,11 @@ Speaker: Tell it like a thriller. The villain is the arms race everyone else ran
 
 ## The payoff
 
-![w:620](assets/xtx-vs-optiver.svg)
+![w:660](assets/xtx-revenue-timeline.svg)
 
-> **Optiver-level revenue — with roughly a tenth of the team.** ~£15M of revenue per employee — close to 10× Optiver's.
+> **XTX's revenue climbed to match Optiver's — on roughly a tenth of the headcount.** ~£15M of revenue per employee, close to 10× Optiver's.
 
-<span class="src">XTX revenue (turnover) vs Optiver net trading income, 2025 (€→£ approx). Headcount approximate, group-wide. Sources: Companies House / Optiver / press.</span>
+<span class="src">XTX revenue bars (turnover) + headcount line; Optiver shown as 2025 reference (NTI ≈£3.9bn / €4.6bn; ~2,600 staff). €→£ approx; 2016–19 single entity, 2020+ combined.</span>
 
 <!--
 Speaker: This is the reveal the whole talk has been building to. Let the gap between the two lines speak: billions in revenue, a few hundred people. Pause on it.
