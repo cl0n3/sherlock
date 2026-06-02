@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L7,3 L0,6 Z" fill="#2dd4bf"/>
+      <path d="M0,0 L7,3 L0,6 Z" fill="#5cb8a8"/>
     </marker>
     <marker id="axend" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L7,3 L0,6 Z" fill="#94a3b8"/>
@@ -18,19 +18,19 @@
   <text x="235" y="194" text-anchor="middle" fill="#f5b042" font-size="14">plateauing &#183; capital-heavy</text>
 
   <!-- New-moat node -->
-  <rect x="505" y="100" width="250" height="118" rx="14" fill="#161d2c" stroke="#2dd4bf" stroke-width="2"/>
+  <rect x="505" y="100" width="250" height="118" rx="14" fill="#161d2c" stroke="#5cb8a8" stroke-width="2"/>
   <text x="630" y="135" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">New moat</text>
   <text x="630" y="162" text-anchor="middle" fill="#cbd5e1" font-size="15">time-to-market velocity</text>
-  <text x="630" y="194" text-anchor="middle" fill="#2dd4bf" font-size="14">compounding &#183; AI-multiplied</text>
+  <text x="630" y="194" text-anchor="middle" fill="#5cb8a8" font-size="14">compounding &#183; AI-multiplied</text>
 
   <!-- moving arrow -->
-  <line x1="355" y1="159" x2="498" y2="159" stroke="#2dd4bf" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="355" y1="159" x2="498" y2="159" stroke="#5cb8a8" stroke-width="3" marker-end="url(#arrow)"/>
   <text x="429" y="148" text-anchor="middle" fill="#f5b042" font-size="14" font-weight="700">the moat moves</text>
 
   <!-- axis -->
   <line x1="80" y1="300" x2="780" y2="300" stroke="#94a3b8" stroke-width="2" marker-start="url(#axend)" marker-end="url(#axend)"/>
   <text x="90" y="326" text-anchor="start" fill="#f5b042" font-size="14">How fast each trade executes</text>
-  <text x="770" y="326" text-anchor="end" fill="#2dd4bf" font-size="14">How fast you build, adapt &amp; ship</text>
+  <text x="770" y="326" text-anchor="end" fill="#5cb8a8" font-size="14">How fast you build, adapt &amp; ship</text>
 
   <!-- caption -->
   <text x="430" y="362" text-anchor="middle" fill="#94a3b8" font-size="13.5" font-style="italic">Latency still matters but plateaus — crypto settles in seconds. AI compounds build-and-adapt velocity, so that becomes the edge.</text>

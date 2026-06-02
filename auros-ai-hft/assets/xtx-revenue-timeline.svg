@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
   <!-- legend -->
   <g font-size="12.5">
-    <rect x="95" y="16" width="13" height="13" rx="2" fill="#2dd4bf" opacity="0.4"/>
+    <rect x="95" y="16" width="13" height="13" rx="2" fill="#5cb8a8" opacity="0.4"/>
     <text x="113" y="27" fill="#cbd5e1">2016–19 · single entity</text>
-    <rect x="300" y="16" width="13" height="13" rx="2" fill="#2dd4bf"/>
+    <rect x="300" y="16" width="13" height="13" rx="2" fill="#5cb8a8"/>
     <text x="318" y="27" fill="#cbd5e1">2020–25 · combined group</text>
   </g>
 
@@ -25,14 +25,14 @@
   </g>
 
   <!-- bars: 2016-19 dim (single entity) -->
-  <g fill="#2dd4bf" opacity="0.4">
+  <g fill="#5cb8a8" opacity="0.4">
     <rect x="106.5" y="389.0" width="40" height="11.0"/>
     <rect x="179.5" y="387.1" width="40" height="12.9"/>
     <rect x="252.5" y="374.6" width="40" height="25.4"/>
     <rect x="325.5" y="371.7" width="40" height="28.3"/>
   </g>
   <!-- bars: 2020-25 full (combined group) -->
-  <g fill="#2dd4bf">
+  <g fill="#5cb8a8">
     <rect x="398.5" y="312.3" width="40" height="87.7"/>
     <rect x="471.5" y="276.9" width="40" height="123.1"/>
     <rect x="544.5" y="192.9" width="40" height="207.1"/>

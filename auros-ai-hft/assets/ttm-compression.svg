@@ -10,7 +10,7 @@
   <!-- Traditional bar: stages across 600px (180..780) -->
   <g>
     <rect x="180" y="66" width="90"  height="46" fill="#60a5fa"/>
-    <rect x="270" y="66" width="210" height="46" fill="#2dd4bf"/>
+    <rect x="270" y="66" width="210" height="46" fill="#5cb8a8"/>
     <rect x="480" y="66" width="120" height="46" fill="#f5b042"/>
     <rect x="600" y="66" width="100" height="46" fill="#a78bfa"/>
     <rect x="700" y="66" width="80"  height="46" fill="#34d399"/>
@@ -19,7 +19,7 @@
   <!-- With-AI bar: same stages, ~40% scale (240px, 180..420) -->
   <g>
     <rect x="180" y="162" width="36" height="46" fill="#60a5fa"/>
-    <rect x="216" y="162" width="84" height="46" fill="#2dd4bf"/>
+    <rect x="216" y="162" width="84" height="46" fill="#5cb8a8"/>
     <rect x="300" y="162" width="48" height="46" fill="#f5b042"/>
     <rect x="348" y="162" width="40" height="46" fill="#a78bfa"/>
     <rect x="388" y="162" width="32" height="46" fill="#34d399"/>
@@ -32,7 +32,7 @@
   <!-- stage legend -->
   <g font-size="13" fill="#cbd5e1">
     <rect x="180" y="262" width="13" height="13" rx="2" fill="#60a5fa"/><text x="199" y="273">Spec</text>
-    <rect x="262" y="262" width="13" height="13" rx="2" fill="#2dd4bf"/><text x="281" y="273">Build</text>
+    <rect x="262" y="262" width="13" height="13" rx="2" fill="#5cb8a8"/><text x="281" y="273">Build</text>
     <rect x="350" y="262" width="13" height="13" rx="2" fill="#f5b042"/><text x="369" y="273">Test</text>
     <rect x="430" y="262" width="13" height="13" rx="2" fill="#a78bfa"/><text x="449" y="273">Integrate</text>
     <rect x="548" y="262" width="13" height="13" rx="2" fill="#34d399"/><text x="567" y="273">Ship</text>
