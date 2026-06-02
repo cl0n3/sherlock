@@ -377,8 +377,9 @@ Speaker: This is the case-study thesis, stated plainly. XTX was using the transf
 <div class="cols">
 <div>
 
-- XTX trades **100,000+ underlyings** — a **breadth** play, not a depth-in-options play
-- **Not competitive with options trading** as at 2025 — a different shape of edge
+- Prices **50,000+ instruments** across equities, fixed income, FX, commodities **and crypto**
+- **$250bn traded/day across 35 countries**; deep liquidity in **10,000+ assets**
+- A **breadth** play — *not* options-style depth (not competitive with options trading as at 2025)
 
 </div>
 <div class="card">
@@ -388,6 +389,8 @@ Breadth across many instruments and venues, won with **models and connectivity**
 
 </div>
 </div>
+
+<span class="src">Figures: xtxmarkets.com — over 50,000 instruments · 10,000+ assets · $250bn/day · 35 countries.</span>
 
 <!--
 Speaker: Bring it home. XTX's edge is breadth + ML + connectivity across a huge instrument universe — structurally close to crypto market making. The lesson travels.

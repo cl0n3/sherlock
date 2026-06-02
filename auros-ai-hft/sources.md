@@ -23,7 +23,8 @@ Many figures are company-reported or analyst forecasts; **verify headline number
 - Revenue (£bn group): 2016 0.13 · 2017 0.15 · 2018 0.31 · 2019 0.34 · 2020 ~1.05 · 2021 1.48 · 2022 2.49 · 2023 2.01 · 2024 2.74 · 2025 3.93 — FX News Group / Finance Magnates (https://www.financemagnates.com/forex/brokers/xtx-markets-revenue-rises-43-to-3-93-billion-in-2025/)
 - Headcount (approx, group): see chart; early years ~25–40 (2015–16), ~250–260 by 2024–25.
 - GPU cluster / Kajaani data centre — https://www.datacenterdynamics.com/en/news/xtx-markets-to-build-data-center-campus-in-kajaani-finland/
-- 🟡 Thesis (presenter): transformer techniques on raw PCAP market data, pre-2018; breadth (100k+ underlyings), not options. Transformer paper (context): https://arxiv.org/abs/1706.03762
+- 🟡 Thesis (presenter): transformer techniques on raw PCAP market data, pre-2018; breadth (**50,000+ instruments**, xtxmarkets.com), not options-focused. Transformer paper (context): https://arxiv.org/abs/1706.03762
+- XTX site stats (current): over 50,000 instruments · deep liquidity in 10,000+ assets · $250bn/day · 35 countries · 25k GPUs — https://www.xtxmarkets.com/
 - Caveat: 2020 entity restructure breaks revenue comparability and overlaps COVID volatility.
 
 ---
