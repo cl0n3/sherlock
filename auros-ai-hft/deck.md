@@ -2,7 +2,7 @@
 marp: true
 theme: auros
 paginate: true
-footer: 'AI & the Speed Moat · prepared for Auros · confidential draft'
+footer: 'AI in trading & engineering · prepared for Auros · confidential draft'
 ---
 
 <!-- _class: cover -->
@@ -13,333 +13,45 @@ footer: 'AI & the Speed Moat · prepared for Auros · confidential draft'
 
 # AI & the Speed Moat
 
-## Why time-to-market decides who wins — and how AI multiplies it
+## The state of the art, what it means for trading & engineering, and a look at XTX
 
 <span class="small muted">Prepared for Auros · June 2026</span>
 
 <!--
-Speaker: Set the frame in one breath — this is not a hype tour. It's evidence that the firms compounding fastest are using AI to compress time-to-market, and that the lessons land directly on a crypto market maker. ~40 seconds.
+Speaker: Let the cover breathe. One line: AI has moved from novelty to table-stakes; tonight is about where it actually stands, what it does to our teams, and two firms worth learning from.
 -->
 
 ---
 
-## The one idea
-
-> Time-to-market is the most important metric in any trading or technology business. **Speed is the moat — and AI is now the multiplier.**
-
-![w:620](assets/ttm-compression.svg)
-
-<span class="src">Across every function, AI is collapsing the cycle from idea → in-production. Everything else in this deck is evidence.</span>
-
-<!--
-Speaker: Labour this. Two senses of "speed": how fast a trade executes (latency) and how fast you build/adapt/ship (time-to-market). This deck is about the second — the one that compounds. Say the thesis, point at the bar, move on.
--->
-
----
-
-## The macro picture: the fastest diffusion we've seen
-
-![w:560](assets/ai-adoption.svg)
+## Why are we here?
 
 <div class="cols3">
 <div class="card">
 
-<span class="stat">$500B+</span>
-<span class="stat-sub">/yr hyperscaler AI capex (reported, 2026)</span>
+### 1 · The state of AI
+Where the art actually is right now — the tools, the terms, the pace.
 
 </div>
 <div class="card">
 
-<span class="stat">~1.8%</span>
-<span class="stat-sub">potential US productivity-growth uplift (Anthropic)</span>
+### 2 · The trading industry
+What it means for engineering teams — and what firms are already doing.
 
 </div>
 <div class="card">
 
-<span class="stat">55–80%</span>
-<span class="stat-sub">task time saved in controlled studies</span>
+### 3 · A case study
+**XTX** — Optiver-level revenue, a tenth of the people.
 
 </div>
 </div>
+
+<br>
+
+<span class="muted small">Three beats. The middle one is the longest — it's where the work is.</span>
 
 <!--
-Speaker: This is moving faster than cloud or mobile did. A quarter to a half of new code at leading firms is already AI-written. Don't over-claim the %s — definitions vary; that's why the footnote is there.
--->
-
----
-
-## Four forces compressing time-to-market
-
-<div class="cols">
-<div class="card">
-
-### 1 · Productivity
-Build faster with the people you already have.
-
-</div>
-<div class="card">
-
-### 2 · Autonomous building
-Systems that build & run themselves.
-
-</div>
-</div>
-<div class="cols">
-<div class="card">
-
-### 3 · Cost reduction
-Free resources, point them at speed.
-
-</div>
-<div class="card">
-
-### 4 · R&D
-Out-iterate, don't just out-compute.
-
-</div>
-</div>
-
-<span class="src">Evidence key: unbadged = verified/sourced · <span class="badge i">I</span> inference (proprietary) · <span class="badge m">M</span> myth-flagged. Full cites in <code>sources.md</code>.</span>
-
-<!--
-Speaker: Give them the structure: four forces, then we land all of it on crypto trading. Each force ends on the same line — "and that is time-to-market compression."
--->
-
----
-
-<span class="kicker">Force 1 / 4 · Developer & worker productivity</span>
-
-## AI is already rewriting how software gets built
-
-<div class="cols">
-<div>
-
-- **GitHub Copilot** — 55% faster task completion (peer-reviewed)
-- **Google** — ~25%+ of new code AI-generated (and rising)
-- **Amazon Q** — $260M & ~4,500 dev-years saved on Java migration
-- **Stripe "Minions"** — ~1,300 PRs shipped/week
-
-</div>
-<div>
-
-- **JPMorgan LLM Suite** — 3–6 hrs/week saved per employee
-- **Vodafone** — 3 hrs/week across 68k staff (M365 Copilot)
-- **Anthropic** — 81% median time saved (internal study)
-- **Moderna** — 750+ custom GPTs; "scale like a 100k-person co"
-
-</div>
-</div>
-
-<span class="src">Sources: CACM (Copilot); AWS; Stripe eng; Microsoft; Anthropic; OpenAI case studies.</span>
-
-<!--
-Speaker: Don't read every line — let the wall do the work. Pick two: Amazon Q ($260M is a real, audited-style number) and Copilot's peer-reviewed 55%. These are productivity, i.e. speed.
--->
-
----
-
-<span class="kicker">Deep dive · Force 1</span>
-
-## Coinbase: AI coding as a mandate
-
-<div class="cols">
-<div>
-
-- Every engineer **required** to adopt AI tools (Cursor, Copilot, Claude Code)
-- **33%** of code AI-written (2025), targeting **50%**
-- **51%** faster task completion (2h41 → 1h11)
-- **84%** uplift in build success
-- Mandatory **human review gate** retained
-
-</div>
-<div class="card">
-
-### Why this one
-A **crypto-native** peer is treating AI dev-tooling as table-stakes — not a pilot.
-
-The result is the same as everywhere else: **ship faster, keep the quality gate.**
-
-</div>
-</div>
-
-<span class="src">Coinbase engineering blog; Fortune (CEO mandate, 2025).</span>
-
-<!--
-Speaker: This is the slide for the room. A direct competitor-class crypto firm has made AI tooling mandatory. The 51% and the review-gate together = faster without lowering the bar.
--->
-
----
-
-## …and that is time-to-market compression
-
-- More output per engineer → features in **days, not sprints**
-- **Augmentation, not headcount cuts** — redeploy freed time to alpha & differentiation
-- The bottleneck shifts to **judgment and review** — your best people matter *more*
-
-> Force 1: build faster with the people you already have.
-
-<!--
-Speaker: Hit the augmentation framing explicitly — engineer-heavy room. This is leverage, not layoffs. The scarce skill becomes taste and review.
--->
-
----
-
-<span class="kicker">Force 2 / 4 · Autonomous system building</span>
-
-## Software — and machines — that build & run themselves
-
-<div class="cols">
-<div>
-
-- **Devin (Cognition)** — autonomous PRs; ~25% of its own maker's code
-- **Claude Code** — writes the majority of code at Anthropic
-- **GitHub Copilot agent** — issue → PR; ~56% SWE-bench Verified
-- **Factory / SWE-agents** — 50–70% on SWE-bench
-
-</div>
-<div>
-
-- **Waymo** — 450k+ paid driverless rides/week
-- **Figure @ BMW** — 99%+ accuracy; 90k+ parts placed
-- **Amazon** — 1M+ warehouse robots; ~$12.6B projected savings
-- **Agility Digit** — 100k+ totes moved in live ops
-
-</div>
-</div>
-
-<span class="src">Sources: Cognition; Anthropic; GitHub; SWE-bench; Waymo; Figure/BMW; Amazon (Morgan Stanley est.); Agility.</span>
-
-<!--
-Speaker: Two columns on purpose — code agents and physical robots are the same story: autonomy moving from demo to production in 2024–25. The savings figure is an analyst estimate; say so.
--->
-
----
-
-<span class="kicker">Deep dive · Force 2</span>
-
-## Devin: legacy migration without the legacy timeline
-
-<div class="cols">
-<div>
-
-- **Nubank** — autonomous migration of an 8-year, multi-million-line ETL monolith
-- ~**12x** engineering-hours saved · ~**20x** cost · **weeks, not years**
-- **Goldman Sachs** — deploying AI agents across a 12,000-person eng org (3–4x productivity)
-
-</div>
-<div class="card">
-
-### Why this one
-"Legacy" used to mean *slow and risky to change.*
-
-When an agent does the migration, the **build step itself** approaches near-zero time.
-
-</div>
-</div>
-
-<span class="src">Nubank engineering case study; Bloomberg (Goldman Sachs deployment, 2025).</span>
-
-<!--
-Speaker: The Nubank number is the one to land: years → weeks. This reframes legacy from "untouchable" to "cheap to replace" — which is the bridge to time-to-market.
--->
-
----
-
-## …and that is time-to-market compression
-
-- Commodity build & migration work approaches **near-zero cycle time**
-- The model flips: from "human writes, bot assists" → **"bot builds, human approves"**
-- Crypto is laying the **agent-native rails** now — Kraken CLI (MCP), OKX Agent Trade Kit, Coinbase AgentKit
-
-> Force 2: ship systems faster than competitors can hand-build them.
-
-<!--
-Speaker: Tee up the crypto section lightly here — the exchanges are already building agent-ready infrastructure. Whoever's stack is agent-ready ships strategies fastest.
--->
-
----
-
-<span class="kicker">Force 3 / 4 · Cost reduction</span>
-
-## Doing more with less — then reinvesting it
-
-<div class="cols">
-<div>
-
-- **Klarna** — AI assistant ≈ 700 agents' work; −40% cost/transaction
-- **Salesforce Agentforce** — $100M+ annualized savings
-- **IBM AskHR** — −40% HR operating cost; ~$4.5B productivity
-
-</div>
-<div>
-
-- **ServiceNow / Intercom Fin** — 80–90% case deflection
-- **JPMorgan LOXM** — 15% better execution efficiency
-- **Manufacturing** — predictive maintenance −25–40% maint. cost
-
-</div>
-</div>
-
-<span class="src">OpenAI/Klarna; Salesforce; IBM; ServiceNow/Intercom; JPMorgan; McKinsey (mfg, aggregate). *Klarna re-added humans for edge cases in 2025.</span>
-
-<!--
-Speaker: Use Klarna honestly — huge automation, but they recalibrated and added human capacity back for edge cases. That honesty is what makes the rest credible.
--->
-
----
-
-## …and that is time-to-market compression
-
-- Cost-out isn't the goal — **reallocating freed capacity & capital to move faster** is
-- Augmentation-first: most leaders report **redeployment, not layoffs** (Klarna even reversed course on edge cases)
-- Lower cost-to-build = **more shots on goal per quarter**
-
-> Force 3: free up resources, point them at speed.
-
-<!--
-Speaker: Keep the room onside: the win is reinvesting savings into velocity, not cutting heads. Cheaper iteration = more iterations = faster to market.
--->
-
----
-
-<span class="kicker">Force 4 / 4 · R&D</span>
-
-## AI is compressing the discovery loop
-
-<div class="cols">
-<div>
-
-- **AlphaFold 3 / Isomorphic** — 2024 Nobel; AI-built drug pipelines
-- **Insilico** — first AI-designed drug (target + molecule) at Phase IIa
-- **DeepMind GNoME** — 2.2M materials; 736 lab-synthesised
-
-</div>
-<div>
-
-- **AlphaChip** — AI floorplans across 3 TPU generations
-- **GraphCast** — faster, more accurate 10-day weather
-- **Fusion** — AI digital twins (Commonwealth + DeepMind)
-
-</div>
-</div>
-
-<span class="src">Sources: DeepMind; Isomorphic; Insilico (Phase IIa, 2024); Microsoft (MatterGen); CFS.</span>
-
-<!--
-Speaker: This is the "AI does real science now" wall — Nobel-grade, clinical-stage, production silicon. The point isn't biotech; it's that the discovery loop itself got faster.
--->
-
----
-
-## …and that is time-to-market compression
-
-- Discovery cycles collapse **years → weeks** — iteration speed becomes the moat
-- In trading: **foundation models for time-series** (e.g. Kronos) and AI-accelerated quant research shorten the **strategy → production** loop
-
-> Force 4: out-iterate, don't just out-compute.
-
-<!--
-Speaker: Bring R&D home to trading: the research-to-live-strategy pipeline is exactly the loop AI shortens. That's alpha velocity.
+Speaker: Set expectations. This isn't a hype tour; it's a practitioner's read. We'll go general → specific: the field, then our world, then one firm that did it early.
 -->
 
 ---
@@ -347,256 +59,480 @@ Speaker: Bring R&D home to trading: the research-to-live-strategy pipeline is ex
 <!-- _class: section -->
 <!-- _paginate: false -->
 
-# Crypto trading
-## Where the speed moat is won or lost
+# Part 1
+## The state of AI
 
 <!--
-Speaker: Pivot to the audience's world. Everything so far was the setup; this is the payload.
+Speaker: Start broad and current. The goal here is shared vocabulary and an honest sense of pace before we get tactical.
 -->
 
 ---
 
-## Two kinds of speed — don't confuse them
-
-![w:680](assets/edge-shift.svg)
-
-- **Latency** (µs): still matters, but plateauing — and crypto settles in **seconds**
-- **Velocity** (time-to-market): how fast you build, adapt and ship — **compounding, AI-multiplied**
-- The edge is migrating from the first to the second
-
-<!--
-Speaker: This is the reconciliation slide. Nobody's saying latency is dead — but in crypto it caps out fast. The durable, compounding edge is organisational velocity, and AI is the lever on it.
--->
-
----
-
-## Your competitors are already on it
+## The tools at the frontier
 
 <div class="cols">
 <div>
 
-- **Wintermute** — ML risk/MM; 313% vol growth, ~$5B/day
-- **GSR** — ML micro-spread & inventory routing <span class="badge i">I</span>
-- **Jump Crypto** — DL / RL / LLMs at scale
-- **B2C2** — vector/time-series ML; $2T+ volume
-- **Cumberland (DRW)** — DRW quant stack in crypto <span class="badge i">I</span>
+- **Claude Code** — terminal/IDE agent; writes the majority of Anthropic's own code
+- **OpenAI Codex** — cloud agent, runs tasks in parallel
+- **Cursor** — AI-native IDE (firm-wide at Coinbase, Optiver)
 
 </div>
 <div>
 
-- **Keyrock** — ML stat-arb across 85+ venues <span class="badge i">I</span>
-- **Flowdesk** — 1M+ orders/day, low-latency infra
-- **FalconX** — "Satoshi" LLM copilot; Focal AI insights
-- **DWF Labs** — launched autonomous trading agents
-- **Amber** — AgentFi on-chain automation
+- **GitHub Copilot (agent)** — issue → pull request
+- **Gemini CLI / Amazon Q** — agents in the terminal & cloud
+- **Devin (Cognition)** — autonomous software engineer
 
 </div>
 </div>
 
-<span class="src">Most market-maker internals are proprietary — ML use is sourced from company statements/jobs; specifics are <span class="badge i">I</span> inference.</span>
+> These aren't autocomplete. They read a codebase, plan, edit across files, run the tests, and open the PR.
 
 <!--
-Speaker: Name them — this is the motivating slide. The honest caveat (internals are private) protects you. The pattern is unmistakable: everyone in the peer set is investing in ML + agents.
+Speaker: The key shift to land: the unit of work moved from "a suggestion" to "a task." A year ago these were demos; now they ship production code daily.
 -->
 
 ---
 
-## The rails for AI agents are being laid now
+## AI vs ML vs LLMs — the same family
 
-<div class="cols">
-<div>
+![w:560](assets/ai-ml-llm.svg)
 
-- **Coinbase AgentKit** — lets agents transact on-chain; AI-coding mandate internally
-- **Kraken CLI** — 134 commands, **MCP-native** for AI agents (live 2026)
-
-</div>
-<div>
-
-- **OKX Agent Trade Kit** — 83 tools via MCP/CLI; OnchainOS across 60+ chains
-- **Binance** — 100+ ML models (fraud); AI Pro sandbox; agent skills
-
-</div>
-</div>
-
-> Whoever's infrastructure is **agent-ready** will ship AI strategies fastest. That is time-to-market, at the venue layer.
+<span class="src">A quick map so we're using words the same way: today's "AI" conversation is mostly the innermost ring — large models — but the edge in trading still lives across all of it.</span>
 
 <!--
-Speaker: The exchanges are building for an agent-first world. For a market maker, the read-through is: your own stack needs to be agent-ready or you'll integrate slower than rivals.
+Speaker: Defuse jargon. "AI" is the broad field; "ML" learns from data; "deep learning" is neural nets (incl. transformers); "LLMs/GenAI" are the frontier we all talk about. Trading uses the whole stack — not just chatbots.
 -->
 
 ---
 
-## The frontier: on-chain AI agents — real revenue, real hype
+## State of the art: what's actually true
 
 <div class="cols">
 <div>
 
-**Real (on-chain, verifiable):**
-- **Virtuals** — ~$479M Q1 on-chain agent activity
-- **Bittensor** — ~$43M Q1 on-chain AI-services revenue
-- **ai16z / ElizaOS** — open agent framework; fast adoption
+- **The pace is breathtaking** — frontier capability steps up every few months; last year's best is now commodity
+- **Chat → agents** — models now *plan and execute* multi-step work, not just answer
+- **Cost is collapsing** — price per token down ~10× a year; capability-per-dollar rising just as fast
+
+</div>
+<div>
+
+- **Reasoning is the new frontier** — "thinking" models spend compute at test time to crack what stumped earlier LLMs
+- **Open weights are close behind** — DeepSeek, Llama, Qwen diffuse the frontier cheaply
+- **It's horizontal** — same models do code, law, medicine, finance. Like electricity, not an app
+
+</div>
+</div>
+
+<!--
+Speaker: These are my framing points — edit freely. The one to hammer is pace: any plan that assumes today's limits will be wrong within two quarters. Build for where it's going.
+-->
+
+---
+
+## It's already writing the code
+
+![w:560](assets/ai-adoption.svg)
+
+<span class="src">Company-reported share of new code AI-written/assisted. Definitions vary — but the direction is unambiguous.</span>
+
+<!--
+Speaker: Concrete proof of "it's here." A quarter to a half of new code at serious engineering orgs is already AI-assisted, with humans on review. This is the baseline, not the frontier.
+-->
+
+---
+
+<!-- _class: section -->
+<!-- _paginate: false -->
+
+# Part 2
+## The trading industry — teams & engineering
+
+<!--
+Speaker: Now make it ours. This section is the heart of the talk: what this does to how we build and who we hire.
+-->
+
+---
+
+<span class="kicker">The role shift</span>
+
+## Engineers become agent-managers & architects
+
+- The job moves from **writing code** to **specifying, directing and reviewing** agents that write it
+- Value concentrates in **system design, problem framing and judgement** — the architect's work
+- Typing speed stops mattering; **taste and verification** become the bottleneck
+
+> The best engineers won't be the fastest coders. They'll be the ones who manage a team of agents well.
+
+<!--
+Speaker: This is the mental-model change. Frame it as a promotion, not a threat: every good engineer effectively gets a team. But managing agents is a real, different skill.
+-->
+
+---
+
+<span class="kicker">The must-have</span>
+
+## AI is not optional — the jury is in
+
+![w:560](assets/ttm-compression.svg)
+
+- You are **falling behind** if your engineers aren't building with these tools
+- The analogy: insisting on **hand-writing assembly** while competitors ship in **C++**
+
+<!--
+Speaker: Be blunt. This is the conviction slide. The assembly-vs-C++ line lands because everyone in the room understands abstraction levels. The compounding gap is the risk.
+-->
+
+---
+
+<span class="kicker">The people problem</span>
+
+## Everyone's a manager overnight
+
+- Hand every engineer a team of agents and you've made them **all managers** — with no training
+- That's a **hard transition**: delegation, review, trust, letting go of the keyboard
+- **Some won't want to take the step** — and that's information you need early
+- Invest in the change deliberately: it won't happen by buying licences
+
+> The tools are the easy part. Re-skilling the people is the program.
+
+<!--
+Speaker: The empathy + realism slide. Most failed AI rollouts are change-management failures, not tooling failures. Name that some of your best individual contributors may resist — plan for it.
+-->
+
+---
+
+<span class="kicker">Patterns that work · engineering</span>
+
+## Practices to embrace
+
+<div class="cols">
+<div class="card">
+
+### Review with agents
+**AI code reviewers** — and a **multi-agent** panel, not a single model. Different models catch different bugs.
 
 </div>
 <div class="card">
 
-### Stay skeptical
-- "95% of crypto funds use agentic AI", "1M agents by EOY" — **forecast / hype** <span class="badge m">M</span>
-- Today: dominated by **speculative/meme** agents; institutional-grade still **early**
-- Security: ~$4.6M of exploits surfaced by AI agents (2025)
+### Skills over chats
+Build **reusable skills / tools** for agents, not one-off chat sessions. Compound the leverage.
 
 </div>
 </div>
+<div class="cols">
+<div class="card">
 
-<span class="src">Sources: Messari (Virtuals); 1kx (Bittensor); CryptoSlate. On-chain revenue <span class="badge i">verifiable</span>; adoption forecasts <span class="badge m">M</span>.</span>
+### AI-friendly codebases
+**Monorepos** and clean structure so agents can see the whole picture.
+
+</div>
+<div class="card">
+
+### Real test environments
+**High-quality tests** are the guardrail that lets agents move fast safely.
+
+</div>
+</div>
 
 <!--
-Speaker: Give them both barrels: the on-chain revenue is real and verifiable, but the "everything is an agent now" narrative is mostly hype. Credibility comes from drawing that line yourself.
+Speaker: These are the concrete "how." The multi-agent reviewer point is non-obvious and powerful. Tests + monorepo are what make agents reliable — they're an AI-enablement investment, not overhead.
 -->
 
 ---
 
-## The bar they're racing toward (TradFi quant)
+<span class="kicker">Patterns that work · the whole firm</span>
+
+## It's bigger than engineering
 
 <div class="cols">
-<div>
+<div class="card">
 
-- **XTX** — 25k GPUs, transformers, €1bn Kajaani build (Companies House, *not* HMRC)
-- **Jane Street** — $6B CoreWeave AI commitment · **Bridgewater AIA** — $2B ML fund
-
-</div>
-<div>
-
-- **Citadel** — entered crypto market-making (Feb 2025)
-- **Renaissance / Man AHL** — decades of production ML
-- All of them **scaling compute & ML spend** hard — that's the bar
+### Data is the moat
+Your data is **more valuable than ever** — and you can't escape the clean-up. The good news: **AI can help do it.** This matters for **every department**, not just engineering.
 
 </div>
-</div>
+<div class="card">
 
-<span class="src">Companies House; Data Centre Dynamics; CoinDesk; Fortune; corporate disclosures.</span>
+### Specialists are next
+Legal, accounting, HR and finance are being **challenged by AI tools** — exactly like engineering. The same playbook (enablement, review, re-skilling) applies firm-wide.
+
+</div>
+</div>
 
 <!--
-Speaker: TradFi is the sophistication bar — pouring capital into compute and ML while moving into crypto. The next slide drills into XTX specifically, with the revenue curve.
+Speaker: Widen the lens so leadership sees this as a firm-wide program. Data quality is the unglamorous prerequisite — and a place AI pays for itself. Every specialist function is on the same curve engineering is.
 -->
 
 ---
 
-<span class="kicker">A closer read · my hypothesis</span>
+<!-- _class: section -->
+<!-- _paginate: false -->
 
-## XTX: reading the revenue curve
+# Part 3
+## AI in the trading industry — what firms are doing
+
+<!--
+Speaker: From principles to evidence. This is my read from inside Optiver and the wider industry. Flag verbally that these are my recollections.
+-->
+
+---
+
+<span class="kicker">Optiver · my account <span class="badge i">Insider</span></span>
+
+## From a standing start to serious money
+
+- When I left, Optiver was **only just starting** its AI journey
+- Now: **major investment in systematic trading** — ~**€500M NTI** on the Austin desk at that time
+- **~€100M** on a **private GPU cluster & data centre** — and **more is being spent this year**
+
+<span class="src">My recollection / insider perspective — figures approximate and not independently verified.</span>
+
+<!--
+Speaker: CONFIDENTIALITY — these are internal recollections of a former employer; only say what you're comfortable sharing with this audience. Keep figures as round, "at that time" numbers. The story: a late starter is now spending at scale.
+-->
+
+---
+
+<span class="kicker">Optiver · my account <span class="badge i">Insider</span></span>
+
+## AI in production — and a mindset that flipped
+
+- **AI-only connectivity** projects **in production** for **US cash trading** — many markets to connect to, quickly
+- Overcame the **"ATR moral hazard"** that stalled this kind of work before
+- The old belief — *"it won't work in our system, our engineering is too specialised"* — was **very wrong**
+- Optiver now runs **dedicated AI-enablement teams** with **partner-level sponsorship**
+
+<span class="src">Insider perspective — directional, not a public disclosure.</span>
+
+<!--
+Speaker: CONFIDENTIALITY applies. The headline for Auros: the "we're too specialised for this" objection is the exact thing that got disproven. Top-level sponsorship is what made it real.
+-->
+
+---
+
+<span class="kicker">Optiver & IMC · my account <span class="badge i">Insider</span></span>
+
+## AI Apps Engineers, in the wild
+
+- **Both Optiver and IMC** use **AI Apps Engineers** extensively
+- Concrete wins: **faster triage** and **faster market re-entry** after issues
+- Removes a **stressful, mundane on-call task** from humans — and **improves availability metrics**
+
+> A boring, painful job done better by AI — that's where the early ROI actually shows up.
+
+<!--
+Speaker: This is the most relatable, least-hype example — operational toil. Availability went up and a horrible job got easier. That's the pattern to copy first at Auros.
+-->
+
+---
+
+<!-- _class: section -->
+<!-- _paginate: false -->
+
+# Part 4
+## Case study: XTX
+
+<!--
+Speaker: One firm that did all of this early. The numbers do the talking.
+-->
+
+---
+
+<span class="kicker">Case study · XTX</span>
+
+## Optiver-level revenue — a tenth of the people
 
 ![w:560](assets/xtx-revenue-timeline.svg)
 
-<div class="cols">
-<div>
-
-- Systematic & ML-driven **from 2015** — a *deepening*, not a pivot
-- Revenue **~doubled in 2018**, then ~10×'d across the decade
-
-</div>
-<div>
-
-- *My read:* going deeper into deep learning (incl. transformers) helped compound it
-- **Honest caveats:** the 2018 jump likely pre-dates transformers in production; 2020+ is confounded by COVID **and** an entity restructure <span class="badge i">I</span>
-
-</div>
-</div>
-
-<span class="src">Revenue: Companies House via FX News Group / Finance Magnates. 2016–19 single entity; 2020+ combined — see chart note.</span>
+<span class="src">Revenue: Companies House via FX News Group / Finance Magnates. Headcount approximate (group). 2016–19 single entity; 2020+ combined — see chart note.</span>
 
 <!--
-Speaker: The data-backed version of the transformer thesis. Show the curve, make the claim as YOUR read, then own the caveats out loud — the 2018 doubling is arguably too early for transformers, and the 2020+ surge rode COVID and an accounting restructure. This is bulletproof because you've shown your work, not asserted a myth.
+Speaker: The punchline is the gap between the two lines: revenue into the billions while headcount stays a few hundred. ~€/£ billions of revenue with ~10% of an Optiver-sized workforce. That's the AI-and-compute leverage thesis, proven.
 -->
 
 ---
 
-## The speed moat
+<span class="kicker">Case study · XTX</span>
 
-> Latency was the old moat. **Velocity is the new one** — and AI is how you compound it.
+## What they did
 
-- All four forces point the same way: **less time from idea to in-production**
-- In trading, the winners will **build, adapt and ship faster** than the field
-- The advantage **compounds** — every cycle you save funds the next
+- **Transformer techniques** — the precursor to today's LLMs — applied to markets **before it was cool**
+- Trained on **raw PCAP** market-data captures, at scale
+- The bet: **prediction quality + compute**, not the latency arms race
+- Result: revenue that **inflected and compounded** through the deep-learning era
 
 <!--
-Speaker: Land the thesis one more time. This is the sentence you want them repeating in the hallway afterward.
+Speaker: This is the case-study thesis, stated plainly. XTX was using the transformer toolkit on packet-capture data years before the rest of the market. Present it as the argued read; the chart backs the compounding.
 -->
 
 ---
 
-## What this means for Auros
+<span class="kicker">Case study · XTX</span>
 
-<div class="cols">
-<div class="card">
-
-### Tool up
-AI dev-tooling as a **mandate** (be Coinbase) — with review gates.
-
-</div>
-<div class="card">
-
-### Go agent-native
-Build toward autonomous systems & **agent-ready rails**.
-
-</div>
-</div>
-<div class="cols">
-<div class="card">
-
-### Reinvest the savings
-Turn cost-out into **funded speed** — more iterations per quarter.
-
-</div>
-<div class="card">
-
-### Compute & talent = moat
-Treat both as strategic; the **best people matter more**, not less.
-
-</div>
-</div>
-
-<span class="src">Every lever measured by one yardstick: time-to-market.</span>
-
-<!--
-Speaker: Four concrete, fundable moves. Each maps to a force. Close by tying all of them back to the single metric.
--->
-
----
-
-## Risks & honest caveats
+## Parallels to Auros
 
 <div class="cols">
 <div>
 
-- **Hype** — on-chain agents are early; separate signal from meme
-- **Model risk** — silent failure, overfitting, regime breaks
-- **Security / custody** — autonomous code near keys (~$4.6M exploits, 2025)
+- XTX trades **100,000+ underlyings** — a **breadth** play, not a depth-in-options play
+- **Not competitive with options trading** as at 2025 — a different shape of edge
 
 </div>
-<div>
+<div class="card">
 
-- **24/7 ops** — online models drift; monitoring is non-negotiable
-- **Data caveats** — rival internals are inference; some 2026 stats are forecasts
-- **Speed without judgment** — velocity only helps if the quality gate holds
+### Why this rhymes with Auros
+Breadth across many instruments and venues, won with **models and connectivity** rather than options-style depth — that's **Auros's game too.**
 
 </div>
 </div>
 
 <!--
-Speaker: Showing the downside is what makes the upside land. Reiterate: speed is the moat, but ungated speed just ships mistakes faster.
+Speaker: Bring it home. XTX's edge is breadth + ML + connectivity across a huge instrument universe — structurally close to crypto market making. The lesson travels.
 -->
 
 ---
 
-## Appendix · sources & method
+## So what — for Auros
 
-- **Productivity / cost:** CACM (Copilot), AWS (Amazon Q), Stripe, Microsoft, IBM, OpenAI (Klarna/Moderna), Salesforce, ServiceNow
-- **Autonomous / R&D:** Cognition, Anthropic, GitHub, Waymo, Figure, Amazon, DeepMind (AlphaFold/GNoME/AlphaChip/GraphCast), Insilico, CFS
-- **Crypto & trading:** Wintermute, B2C2, Keyrock, Flowdesk, FalconX, DWF; Coinbase/Kraken/OKX/Binance; Messari/1kx (agents); XTX (Companies House), Jane Street, Bridgewater, Citadel
-- **Macro:** hyperscaler capex (reported); Anthropic productivity research
+<div class="cols">
+<div>
 
-<span class="src">Full URL list in <code>sources.md</code>. Key: unbadged = verified · <span class="badge i">I</span> inference/insider · <span class="badge m">M</span> myth-flagged. Figures approximate — verify headline numbers before presenting.</span>
+- **It's here and it's a must-have** — the leaders are already compounding
+- **Re-skill the people** — everyone becomes an agent-manager; help them
+- **Invest in the substrate** — tests, monorepos, clean data, multi-agent review
+
+</div>
+<div>
+
+- **Sponsor it from the top** — partner-level, like Optiver did
+- **Start with the toil** — triage, re-entry, connectivity — where ROI is obvious
+- **Breadth + models + connectivity** — XTX shows where that leads
+
+</div>
+</div>
 
 <!--
-Speaker: Leave this up during Q&A. Point people to sources.md. Reiterate the verified-vs-inference discipline.
+Speaker: Land the asks. Keep it to things Auros can start in a quarter. End on conviction: the firms that move now compound; the rest fall behind.
+-->
+
+---
+
+<!-- _class: section -->
+<!-- _paginate: false -->
+
+# Appendix
+## Evidence & references
+
+<!--
+Speaker: Reference material for Q&A — three buckets: TradFi spenders, the macro trend, and crypto/DeFi. Leave up while questions come.
+-->
+
+---
+
+<span class="kicker">Appendix A</span>
+
+## TradFi firms spending big
+
+<div class="cols">
+<div>
+
+- **Citadel Securities** — AI spend rising; entered **crypto market-making** (Feb 2025)
+- **Jane Street** — **$6B** CoreWeave AI-compute commitment
+- **Bridgewater** — **$2B** "AIA" ML fund
+- **XTX** — 25k GPUs, transformers (see case study)
+
+</div>
+<div>
+
+- **Two Sigma** — DL on unstructured data
+- **Renaissance** — decades of statistical ML
+- **Hudson River Trading** — sequence models / LLMs on market data
+- **Man AHL / JPMorgan (LOXM)** — production ML in execution
+
+</div>
+</div>
+
+<span class="src">Sources in <code>sources.md</code>. Verified public unless flagged.</span>
+
+<!--
+Speaker: The point of this slide: the most sophisticated money is pouring capital into AI compute and talent. Names available for anyone who wants to dig.
+-->
+
+---
+
+<span class="kicker">Appendix B</span>
+
+## Economic trends
+
+<div class="cols">
+<div>
+
+- **AI capex** — ~**$500B+/yr** hyperscaler spend (2026)
+- **Code adoption** — Google ~25%+, GitHub 46%, Coinbase 50% target
+- **Productivity** — Copilot +55% task speed; Anthropic 81% median time saved
+- **Enterprise** — Amazon Q **$260M**; Klarna −40% cost/txn; IBM AskHR −40%
+
+</div>
+<div>
+
+- **R&D** — AlphaFold (Nobel), GNoME (2.2M materials), AlphaChip
+- **Autonomy** — Waymo 450k rides/wk; Amazon 1M robots; Devin @ Nubank/Goldman
+- **Markets** — AI-agent & automated-trading TAMs growing 40%+ CAGR
+
+</div>
+</div>
+
+<span class="src">Company-reported / press / analyst; several 2026 figures are forecasts. See <code>sources.md</code>.</span>
+
+<!--
+Speaker: The macro backdrop — AI is the fastest-diffusing general-purpose tech we've seen, across every sector. Use selectively to answer "is this just hype?".
+-->
+
+---
+
+<span class="kicker">Appendix C</span>
+
+## Crypto / DeFi firms embracing AI
+
+<div class="cols">
+<div>
+
+- **Wintermute** — ML risk/MM; ~$5B/day
+- **B2C2** — vector/time-series ML; $2T+ volume
+- **Keyrock · Flowdesk** — ML across 85+ venues; 1M+ orders/day
+- **FalconX · DWF · Amber** — LLM copilots; autonomous trading agents
+- **GSR · Jump · Cumberland** — DL/RL/LLMs at scale
+
+</div>
+<div>
+
+- **Exchanges going agent-native** — Coinbase AgentKit, Kraken CLI (MCP), OKX Agent Trade Kit, Binance AI
+- **On-chain agents** — Virtuals (~$479M Q1), Bittensor (~$43M Q1), ai16z/ElizaOS — *real revenue, lots of hype* <span class="badge m">M</span>
+
+</div>
+</div>
+
+<span class="src">Most market-maker internals are proprietary — ML use sourced from statements/jobs; specifics are <span class="badge i">inference</span>.</span>
+
+<!--
+Speaker: Your peer set, mapped. The pattern: everyone's investing in ML + agent infrastructure; the on-chain-agent narrative is partly real, partly hype — draw that line yourself.
+-->
+
+---
+
+## Sources & method
+
+- **XTX:** Companies House (`09415174`, `12300034`, `12832334`); FX News Group; Finance Magnates
+- **TradFi:** CoinDesk, Bloomberg, Fortune, company disclosures (Citadel, Jane Street, Bridgewater, Two Sigma, HRT, Man AHL, JPMorgan)
+- **Economy:** Anthropic & GitHub productivity research; AWS; OpenAI case studies; DeepMind; analyst market reports
+- **Crypto:** company statements; AWS/Google Cloud case studies; Messari; 1kx
+- **Optiver / IMC (Part 3):** my own insider perspective — directional, not public disclosures
+
+<span class="src">Full URL list in <code>sources.md</code>. Key: unbadged = sourced · <span class="badge i">I</span> inference/insider · <span class="badge m">M</span> hype-flagged. Verify headline figures before presenting.</span>
+
+<!--
+Speaker: Close on rigour. Be explicit that Part 3 is your recollection, not a citation — that honesty protects you.
 -->

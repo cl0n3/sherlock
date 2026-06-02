@@ -1,10 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
   <!-- legend -->
   <g font-size="12.5">
-    <rect x="95" y="16" width="13" height="13" rx="2" fill="#5cb8a8" opacity="0.4"/>
-    <text x="113" y="27" fill="#cbd5e1">2016–19 · single entity</text>
-    <rect x="300" y="16" width="13" height="13" rx="2" fill="#5cb8a8"/>
-    <text x="318" y="27" fill="#cbd5e1">2020–25 · combined group</text>
+    <rect x="70" y="16" width="13" height="13" rx="2" fill="#5cb8a8" opacity="0.4"/>
+    <text x="88" y="27" fill="#cbd5e1">2016–19 single entity</text>
+    <rect x="250" y="16" width="13" height="13" rx="2" fill="#5cb8a8"/>
+    <text x="268" y="27" fill="#cbd5e1">2020–25 combined group</text>
+    <line x1="500" y1="22" x2="524" y2="22" stroke="#a78bfa" stroke-width="2.5"/>
+    <circle cx="512" cy="22" r="3" fill="#a78bfa"/>
+    <text x="530" y="27" fill="#cbd5e1">headcount (approx)</text>
   </g>
 
   <!-- gridlines -->
@@ -15,7 +18,7 @@
     <line x1="90" y1="150" x2="820" y2="150"/>
     <line x1="90" y1="66.7" x2="820" y2="66.7"/>
   </g>
-  <!-- y labels -->
+  <!-- left y labels (revenue) -->
   <g fill="#94a3b8" font-size="13" text-anchor="end">
     <text x="78" y="405">£0</text>
     <text x="78" y="321.7">£1bn</text>
@@ -23,15 +26,23 @@
     <text x="78" y="155">£3bn</text>
     <text x="78" y="71.7">£4bn</text>
   </g>
+  <!-- right y labels (headcount) -->
+  <g fill="#a78bfa" font-size="13" text-anchor="start">
+    <text x="828" y="405">0</text>
+    <text x="828" y="295">100</text>
+    <text x="828" y="185">200</text>
+    <text x="828" y="75">300</text>
+    <text x="828" y="58" font-size="11" fill="#9a86c8">staff</text>
+  </g>
 
-  <!-- bars: 2016-19 dim (single entity) -->
+  <!-- revenue bars: 2016-19 dim (single entity) -->
   <g fill="#5cb8a8" opacity="0.4">
     <rect x="106.5" y="389.0" width="40" height="11.0"/>
     <rect x="179.5" y="387.1" width="40" height="12.9"/>
     <rect x="252.5" y="374.6" width="40" height="25.4"/>
     <rect x="325.5" y="371.7" width="40" height="28.3"/>
   </g>
-  <!-- bars: 2020-25 full (combined group) -->
+  <!-- revenue bars: 2020-25 full (combined group) -->
   <g fill="#5cb8a8">
     <rect x="398.5" y="312.3" width="40" height="87.7"/>
     <rect x="471.5" y="276.9" width="40" height="123.1"/>
@@ -40,8 +51,7 @@
     <rect x="690.5" y="171.7" width="40" height="228.3"/>
     <rect x="763.5" y="72.5" width="40" height="327.5"/>
   </g>
-
-  <!-- value labels (£bn) -->
+  <!-- revenue value labels (£bn) -->
   <g fill="#cbd5e1" font-size="11" text-anchor="middle">
     <text x="126.5" y="384">0.13</text>
     <text x="199.5" y="382">0.15</text>
@@ -55,31 +65,35 @@
     <text x="783.5" y="68">3.93</text>
   </g>
 
-  <!-- "Attention" paper annotation at 2017 -->
-  <line x1="199.5" y1="214" x2="199.5" y2="384" stroke="#f5b042" stroke-width="1.4" stroke-dasharray="4 3"/>
-  <text x="199.5" y="190" text-anchor="middle" fill="#f5b042" font-size="12" font-weight="700">'Attention Is All You Need'</text>
-  <text x="199.5" y="206" text-anchor="middle" fill="#f5b042" font-size="12">paper · Jun 2017</text>
+  <!-- headcount line (right axis, approx group) -->
+  <polyline points="126.5,356 199.5,323 272.5,279 345.5,246 418.5,218.5 491.5,191 564.5,158 637.5,136 710.5,125 783.5,114"
+            fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <g fill="#a78bfa">
+    <circle cx="126.5" cy="356" r="3"/><circle cx="199.5" cy="323" r="3"/><circle cx="272.5" cy="279" r="3"/>
+    <circle cx="345.5" cy="246" r="3"/><circle cx="418.5" cy="218.5" r="3"/><circle cx="491.5" cy="191" r="3"/>
+    <circle cx="564.5" cy="158" r="3"/><circle cx="637.5" cy="136" r="3"/><circle cx="710.5" cy="125" r="3"/><circle cx="783.5" cy="114" r="3"/>
+  </g>
+  <text x="120" y="349" text-anchor="end" fill="#b9a6e8" font-size="11">≈40</text>
+  <text x="789" y="110" text-anchor="start" fill="#b9a6e8" font-size="11.5">≈260</text>
+
+  <!-- transformer-paper marker at 2017 -->
+  <line x1="199.5" y1="214" x2="199.5" y2="384" stroke="#e6ab57" stroke-width="1.3" stroke-dasharray="4 3"/>
+  <text x="199.5" y="200" text-anchor="middle" fill="#e6ab57" font-size="11.5" font-weight="600">transformer paper</text>
+  <text x="199.5" y="214.5" text-anchor="middle" fill="#e6ab57" font-size="11.5">2017</text>
 
   <!-- 2020 restructure break -->
-  <line x1="382" y1="112" x2="382" y2="400" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="5 4"/>
-  <text x="382" y="88" text-anchor="middle" fill="#94a3b8" font-size="12" font-weight="700">2020: entity restructure</text>
-  <text x="382" y="104" text-anchor="middle" fill="#94a3b8" font-size="12">+ COVID — series breaks</text>
+  <line x1="382" y1="112" x2="382" y2="400" stroke="#94a3b8" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="382" y="88" text-anchor="middle" fill="#94a3b8" font-size="11.5" font-weight="600">2020: entity restructure</text>
+  <text x="382" y="103" text-anchor="middle" fill="#94a3b8" font-size="11.5">+ COVID — series breaks</text>
 
-  <!-- x axis baseline + year labels -->
+  <!-- x axis + year labels -->
   <line x1="90" y1="400" x2="820" y2="400" stroke="#3a4658" stroke-width="1.5"/>
   <g fill="#cbd5e1" font-size="13" text-anchor="middle">
-    <text x="126.5" y="420">2016</text>
-    <text x="199.5" y="420">2017</text>
-    <text x="272.5" y="420">2018</text>
-    <text x="345.5" y="420">2019</text>
-    <text x="418.5" y="420">2020</text>
-    <text x="491.5" y="420">2021</text>
-    <text x="564.5" y="420">2022</text>
-    <text x="637.5" y="420">2023</text>
-    <text x="710.5" y="420">2024</text>
-    <text x="783.5" y="420">2025</text>
+    <text x="126.5" y="420">2016</text><text x="199.5" y="420">2017</text><text x="272.5" y="420">2018</text>
+    <text x="345.5" y="420">2019</text><text x="418.5" y="420">2020</text><text x="491.5" y="420">2021</text>
+    <text x="564.5" y="420">2022</text><text x="637.5" y="420">2023</text><text x="710.5" y="420">2024</text><text x="783.5" y="420">2025</text>
   </g>
 
   <!-- footnote -->
-  <text x="90" y="452" fill="#94a3b8" font-size="11.5" font-style="italic">Group revenue, £bn. 2016–19 = XTX Markets Ltd (single entity); 2020–25 = combined 3 UK entities — not directly comparable across the 2020 restructure. Source: Companies House / press.</text>
+  <text x="90" y="452" fill="#94a3b8" font-size="11.5" font-style="italic">Revenue (£bn, bars, left) vs approximate group headcount (line, right). 2016–19 = single entity; 2020+ = combined group — not comparable across the 2020 restructure. Source: Companies House / press; headcount approximate.</text>
 </svg>
