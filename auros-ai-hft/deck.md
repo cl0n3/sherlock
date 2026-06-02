@@ -41,6 +41,26 @@ Speaker: COLD OPEN — do not warm up. Say line one, pause, let "a tenth of the 
 
 ---
 
+<span class="kicker">Live · starting now</span>
+
+## Let's put it to the test
+
+<p style="text-align:center; margin:14px 0;"><span style="display:inline-block; border:2px solid #e6ab57; border-radius:14px; padding:14px 36px; font-size:34px; font-weight:700; letter-spacing:2px; color:#f0c074;">AGENT BUILDING&nbsp;…&nbsp;LIVE</span></p>
+
+- Right now I'm setting an **AI agent** loose on a real task: a **BTC autotrader** that connects to **Binance** and scalps on a **couple of momentum signals**
+- It builds in the **background** while we talk
+- The bet: by the time I finish, there's a **strategy live in the market** — written, tested, trading
+
+<!--
+Speaker: FIRST mention of the demo. Just before this slide, kick the agent off in a terminal you can return to, using your prepared plan/prompt.
+SAFETY: use Binance testnet (testnet.binance.vision) or paper / tiny size — never full-size real capital live on stage. Throwaway API key: trade-only, no withdrawals, IP-restricted.
+Signals: keep it simple — e.g. fast/slow EMA crossover + RSI, or order-book imbalance.
+Fallback: have a pre-recorded successful run ready in case wifi / login / venue fails.
+Then DON'T mention it again until the reveal at the end.
+-->
+
+---
+
 <!-- _class: section -->
 <!-- _paginate: false -->
 
@@ -128,41 +148,38 @@ Speaker: Concrete proof of "it's here." A quarter-to-a-half of new code, with hu
 ## What it does to our teams
 
 <!--
-Speaker: The heart of the talk. But first — show, don't tell.
--->
-
----
-
-<span class="kicker">Don't take my word for it</span>
-
-## Watch it build
-
-<p style="text-align:center; margin:18px 0;"><span style="display:inline-block; border:2px solid #5cb8a8; border-radius:14px; padding:16px 40px; font-size:38px; font-weight:700; letter-spacing:3px; color:#8fd0c4;">LIVE&nbsp;DEMO</span></p>
-
-- An agent builds a small **exchange-connectivity adapter** from a one-paragraph spec — writes it, runs the tests, opens the PR
-- ~90 seconds. The point isn't the code. It's the **cycle time.**
-
-<!--
-Speaker: DEMO (~90s) — live or pre-recorded.
-Suggested prompt in a small repo: "Add a connectivity adapter for <venue> implementing our ExchangeAdapter interface — connect, subscribe to the order book, normalise to our internal types. Write unit tests against the recorded fixtures and open a PR."
-Narrate: it reads the existing interface, writes the code, runs the tests, fixes its own error, opens the PR.
-Fallback: have a screen-recording ready in case wifi/login fails.
-The line to land: "that adapter used to be a two-day ticket."
+Speaker: The heart of the talk. The autotrader is building in the background — don't mention it yet; the payoff comes at the end.
 -->
 
 ---
 
 <span class="kicker">The shift</span>
 
-## Your engineers just became agent-managers — and it's not optional
+## Engineers are becoming agent-managers
 
 ![w:520](assets/ttm-compression.svg)
 
-- The job moves from **writing code** to **directing and reviewing** the agents that write it
-- Refuse, and you're **hand-writing assembly while competitors ship in C++** — the jury is in
+- The work is moving from **writing code** to **directing and reviewing** the agents that write it
+- It's a step up the abstraction ladder — much like the move from **assembly to C++**
+- The teams leaning in are shipping in a fraction of the time
 
 <!--
-Speaker: Two ideas, one breath: the role changed (architect/agent-manager), and opting out is a competitive choice. The assembly-vs-C++ line lands because everyone here gets abstraction levels.
+Speaker: Observation, not instruction — the role is changing across the industry (architect / agent-manager). The assembly-to-C++ analogy lands because everyone here gets abstraction levels. Keep it "here's what's happening," not "here's what you must do."
+-->
+
+---
+
+<span class="kicker">The economics of code</span>
+
+## Legacy is only worth it if it pays
+
+- AI makes legacy code far cheaper to **read, migrate and modernise** — the grind is largely automatable now
+- The deeper shift: **the only code worth its legacy overhead is code that makes money**
+- When a rewrite costs a fraction of what it used to, the calculus flips — firms are **willing to throw things out**
+- Optiver's tell: rather than nurse old systems, the energy went into **new systematic trading, built fresh**
+
+<!--
+Speaker: The "code = P&L" idea, as an observation. AI removes most of the legacy grind; and because rewrites are cheap now, the bar for keeping old code is simply "does it make money?" Optiver's systematic-trading bet is the example — build fresh rather than carry legacy. Illustrate, don't prescribe.
 -->
 
 ---
@@ -171,11 +188,11 @@ Speaker: Two ideas, one breath: the role changed (architect/agent-manager), and 
 
 ## Everyone's a manager overnight
 
-- Hand every engineer a team of agents and you've made them **all managers** — with no training
-- A hard transition: delegation, review, trust, letting go of the keyboard
-- **Some won't want to take the step** — that's information you need early
+- Hand every engineer a team of agents and you've effectively made them **all managers** — with no training
+- It's a real transition: delegation, review, trust, letting go of the keyboard
+- And **some won't want to make that leap** — which tends to surface fast
 
-> The tools are the easy part. Re-skilling the people is the program.
+> The tooling is the easy part. The human change is the real work.
 
 <!--
 Speaker: The empathy + realism beat. Most failed rollouts are change-management failures, not tooling failures. Name that some of your best ICs may resist. This is your best line — give it a moment.
@@ -183,28 +200,43 @@ Speaker: The empathy + realism beat. Most failed rollouts are change-management 
 
 ---
 
-<span class="kicker">How not to screw it up</span>
+<span class="kicker">What the winners have in common</span>
 
-## Get the substrate right
+## The substrate that makes it work
 
 <div class="cols">
 <div>
 
 - **Multi-agent code review** — a panel, not one model; different models catch different bugs
-- **Skills over chats** — build reusable tools, not one-off prompts
-- **Monorepos + real tests** — so agents see the whole picture and can't break it quietly
+- **Skills over chats** — reusable tools, not one-off prompts
+- **Monorepos + real tests** — so agents see the whole picture and can't break things quietly
 
 </div>
 <div class="card">
 
-### And it's not just engineering
-Your **data** is the moat — you can't escape the clean-up, but **AI can help.** **Legal, finance, HR** are on the same curve. This is a **firm-wide** program.
+### And it reaches everyone
+**Data** is the moat, and the clean-up is unavoidable — though **AI can help.** **Legal, finance, HR** are on the same curve. It's a firm-wide story.
 
 </div>
 </div>
 
 <!--
 Speaker: The practical "how," compressed. Multi-agent review is the non-obvious one. Tests + monorepo are AI-enablement, not overhead. Then widen the lens: every specialist function is on engineering's curve.
+-->
+
+---
+
+<span class="kicker">An unexpected dividend</span>
+
+## Ideas get tested without the queue
+
+- Traders & researchers can **prototype and test ideas directly** — the "raise a ticket, wait for a dev" bottleneck fades
+- Hypotheses go from **idea → tested in hours**, not sprints
+- The irony: working with agents **forces better documentation** — they need the context, so it finally gets written
+- Net effect: a **tighter loop between research and the market**
+
+<!--
+Speaker: The one the traders in the room will feel. The engineering queue was always the choke point between a research idea and a live test; AI loosens it. And the lovely irony — to get good output from agents you must write things down, so documentation finally improves. Ends Part 2; leads into what firms are actually doing.
 -->
 
 ---
@@ -341,27 +373,43 @@ Speaker: Bring it home. XTX's edge — breadth + ML + connectivity across a huge
 
 ---
 
-## So what — for Auros
+## What this makes possible
 
 <div class="cols">
 <div>
 
-- **It's a must-have** — the leaders are already compounding
-- **Re-skill the people** — everyone's an agent-manager now; help them
-- **Fix the substrate** — tests, monorepos, clean data, multi-agent review
+- **Strategies live in days, not quarters** — the demo wasn't a trick
+- **Small teams, huge surface area** — XTX's tenth-of-the-people is the proof
+- **The boring toil, handled** — triage, re-entry, connectivity (Optiver & IMC already do this)
 
 </div>
 <div>
 
-- **Sponsor it from the top** — partner-level, like Optiver
-- **Start with the toil** — triage, re-entry, connectivity — where ROI is obvious
-- **Breadth + models + connectivity** — XTX shows where that leads
+- **Legacy stops being a prison** — rewrite cheaply, keep only what pays
+- **It compounds** — the firms leaning in pull away a little more each quarter
+- **Every function, not just engineering** — the same curve, firm-wide
 
 </div>
 </div>
 
 <!--
-Speaker: Concrete, quarter-sized asks. Then the close.
+Speaker: Concrete, quarter-sized asks. Then the payoff, then the close.
+-->
+
+---
+
+<span class="kicker">Live · the payoff</span>
+
+## Remember the autotrader?
+
+<p style="text-align:center; margin:14px 0;"><span style="display:inline-block; border:2px solid #5fc59a; border-radius:14px; padding:14px 36px; font-size:34px; font-weight:700; letter-spacing:2px; color:#7fd9b0;">LIVE ON BINANCE</span></p>
+
+- It's **connected to Binance**, scalping **BTC** on momentum signals — and **placing trades**
+- Built by an agent **during this talk**: the connector, the signals, the order logic, the tests
+- One prompt. One session. **A live strategy by the end of the hour.**
+
+<!--
+Speaker: THE PAYOFF — switch to the running bot. Show the trades / PnL / logs and narrate what it built. The line: "this used to be weeks of work for a team — it happened while I talked." Fall back to the recording if needed. Then the close.
 -->
 
 ---
@@ -372,7 +420,7 @@ Speaker: Concrete, quarter-sized asks. Then the close.
 
 # A tenth of the people.
 
-## That's not XTX's secret — it's the new default. The only question is which side of that ratio Auros wants to be on.
+## That used to be XTX's secret. It isn't anymore — it's on the table for anyone willing to pick it up.
 
 <!--
 Speaker: The mic drop. Callback to the open. Say it, hold the beat, stop talking. Don't undercut it with "any questions?" — let it sit, then take questions off the appendix.
