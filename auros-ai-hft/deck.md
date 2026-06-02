@@ -5,17 +5,17 @@ paginate: true
 footer: 'AI & the Speed Moat · prepared for Auros · confidential draft'
 ---
 
-<!-- _class: lead -->
+<!-- _class: cover -->
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-<span class="kicker">The state of AI across industry, the economy & trading</span>
+![w:320](assets/cover-heptagon.svg)
 
 # AI & the Speed Moat
 
 ## Why time-to-market decides who wins — and how AI multiplies it
 
-<span class="small muted">Prepared for Auros · internal discussion draft · June 2026</span>
+<span class="small muted">Prepared for Auros · June 2026</span>
 
 <!--
 Speaker: Set the frame in one breath — this is not a hype tour. It's evidence that the firms compounding fastest are using AI to compress time-to-market, and that the lessons land directly on a crypto market maker. ~40 seconds.
