@@ -9,14 +9,14 @@ footer: 'AI in trading & engineering · prepared for Auros · confidential draft
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-# The state of AI in trading
+# Using AI
 
-## Where it actually is — and how one firm is using it
+## Where it actually is in trading — and what happened when I tried it myself
 
 <span class="small muted">Prepared for Auros · June 2026</span>
 
 <!--
-Speaker: A calm open. The title says it plainly — no theatrics.
+Speaker: A calm open. The title says it plainly.
 -->
 
 ---
@@ -29,32 +29,12 @@ Speaker: A calm open. The title says it plainly — no theatrics.
 
 # AI is changing how fast a desk can build
 
-## I'm not here to tell you your business — just to show you where AI actually is, what it's doing to engineering teams, and how Optiver is using it.
+## I'm not here to tell you your business — just to show you where AI actually is, what it's doing to engineering teams, how Optiver is using it, and what happened when I tried it myself.
 
-<span class="small muted">Three parts: the state of AI · what it does to our teams · a case study.</span>
-
-<!--
-Speaker: Measured framing — scout, not consultant: here's what I'm seeing, you'll know what fits. Then kick off the demo on the next slide.
--->
-
----
-
-<span class="kicker">a quick experiment, running in the background</span>
-
-## Let's put it to the test
-
-<p style="text-align:center; margin:14px 0;"><span style="display:inline-block; border:2px solid #e6ab57; border-radius:14px; padding:14px 36px; font-size:34px; font-weight:700; letter-spacing:2px; color:#f0c074;">AGENT BUILDING&nbsp;…&nbsp;LIVE</span></p>
-
-- While we talk, I've set an **AI agent** on a real task: a small **BTC autotrader** that connects to **Binance** and scalps on a **couple of momentum signals**
-- It builds in the **background** — we'll check back at the end
-- A simple test of one question: how fast can an idea get to market?
+<span class="small muted">The state of AI · what it does to our teams · a case study · and an experiment of my own.</span>
 
 <!--
-Speaker: Just before this slide, kick the agent off in a terminal you can return to, using your prepared plan/prompt.
-SAFETY: use Binance testnet (testnet.binance.vision) or paper / tiny size — never full-size real capital live on stage. Throwaway API key: trade-only, no withdrawals, IP-restricted.
-Signals: keep it simple — e.g. fast/slow EMA crossover + RSI, or order-book imbalance.
-Fallback: have a pre-recorded successful run ready in case wifi / login / venue fails.
-Then leave it until the reveal at the end.
+Speaker: Measured framing — scout, not consultant: here's what I'm seeing, you'll know what fits.
 -->
 
 ---
@@ -146,7 +126,7 @@ Speaker: Concrete proof it's here. Baseline, not frontier.
 ## What it does to our teams
 
 <!--
-Speaker: The autotrader is building in the background — leave it until the end.
+Speaker: The heart of the talk.
 -->
 
 ---
@@ -162,7 +142,7 @@ Speaker: The autotrader is building in the background — leave it until the end
 - The teams leaning in are shipping in a fraction of the time
 
 <!--
-Speaker: Observation, not instruction — the role is changing across the industry (architect / agent-manager). The assembly-to-C++ analogy lands because everyone here gets abstraction levels.
+Speaker: Observation, not instruction — the role is changing across the industry (architect / agent-manager).
 -->
 
 ---
@@ -177,7 +157,7 @@ Speaker: Observation, not instruction — the role is changing across the indust
 - Optiver's tell: rather than nurse old systems, the energy went into **new systematic trading, built fresh**
 
 <!--
-Speaker: The "code = P&L" idea, as an observation. AI removes most of the legacy grind; and because rewrites are cheap now, the bar for keeping old code is simply "does it make money?" Illustrate, don't prescribe.
+Speaker: The "code = P&L" idea, as an observation. Illustrate, don't prescribe.
 -->
 
 ---
@@ -193,7 +173,7 @@ Speaker: The "code = P&L" idea, as an observation. AI removes most of the legacy
 > The tooling is the easy part. The human change is the real work.
 
 <!--
-Speaker: The empathy + realism beat. Most failed rollouts are change-management failures, not tooling failures. Give this line a moment.
+Speaker: The empathy + realism beat. Most failed rollouts are change-management failures, not tooling failures.
 -->
 
 ---
@@ -219,7 +199,7 @@ Speaker: The empathy + realism beat. Most failed rollouts are change-management 
 </div>
 
 <!--
-Speaker: The practical "how," compressed. Multi-agent review is the non-obvious one. Tests + monorepo are AI-enablement, not overhead.
+Speaker: The practical "how," compressed. Multi-agent review is the non-obvious one — and the thing my own experiment leaned on hardest.
 -->
 
 ---
@@ -234,7 +214,7 @@ Speaker: The practical "how," compressed. Multi-agent review is the non-obvious 
 - Net effect: a **tighter loop between research and the market**
 
 <!--
-Speaker: The one the traders in the room will feel. And the irony — to get good output from agents you must write things down, so documentation improves. This sets up Optiver, whose whole strategy is built around it.
+Speaker: The one the traders in the room will feel. This is exactly Optiver's strategy, next.
 -->
 
 ---
@@ -309,7 +289,7 @@ Speaker: CONFIDENTIALITY applies. The reversal — tell it with a beat. "Too spe
 > Faster re-entry is time-to-market by another name — and a horrible job got easier.
 
 <!--
-Speaker: The most relatable example: operational toil. Availability up, a painful job easier. Tie it back: re-entry speed is time-to-market.
+Speaker: The most relatable example: operational toil. Availability up, a painful job easier.
 -->
 
 ---
@@ -325,7 +305,74 @@ Speaker: The most relatable example: operational toil. Availability up, a painfu
 <span class="src">Net profit (bars; Optiver from 2021, €→£ approx) + approximate headcount (lines). Markers: "Attention" paper (2017) &amp; COVID (2020). Sources: Companies House / press.</span>
 
 <!--
-Speaker: Brief. The chart makes the point — comparable profits, very different headcount, with the 2017 paper and COVID marked. XTX is supporting evidence; Optiver is the case study. About a minute.
+Speaker: Brief. The chart makes the point — comparable profits, very different headcount, with the 2017 paper and COVID marked. XTX is supporting evidence; Optiver is the case study.
+-->
+
+---
+
+<!-- _class: section -->
+<!-- _paginate: false -->
+
+# Part 4
+## I put my own thesis to the test
+
+<span class="small muted">Can AI really cut time-to-market for a trading strategy?</span>
+
+<!--
+Speaker: Shift to first person. I believed AI could lower time-to-market for a strategy — so I tried it, and tried to break my own thesis. Here's the honest journey.
+-->
+
+---
+
+<span class="kicker">My experiment · 1</span>
+
+## From a prompt to a live trader
+
+- **Plain-English prompts → a running system:** live market-data feed, signal logic, simulated fills, a live console dashboard
+- The AI absorbed **all the plumbing** — WebSocket streams, REST order routing, HMAC signing, protobuf schemas, orchestration
+- Which freed me for the only genuinely hard part — **finding edge** — not wiring up an exchange
+
+> A working paper-trader on live Binance data — zero connectivity code written by hand.
+
+<!--
+Speaker: Step 1 — the thesis held: high-level prompts produced a real, multi-process scalper against live market data, with none of the plumbing written by me.
+-->
+
+---
+
+<span class="kicker">My experiment · 2</span>
+
+## Then I made it hard on purpose
+
+![w:540](assets/journey-arch.svg)
+
+- I dictated real constraints: **C++20, multi-process, shared-memory IPC**
+- Back came **three isolated processes** over a **lock-free SHM ring + Unix sockets**, all protobuf — ~**6,700 lines**
+- With the details a senior quant dev adds: lot/tick rounding, IOC slippage caps, a **daily-loss kill-switch**, a regime-aware strategy
+
+> Lock-free seqlock ring · 3 processes · protobuf · C++20 — all from prompts.
+
+<!--
+Speaker: Step 2 — I imposed genuine engineering constraints and got back genuine systems work, not toy code. The constraints didn't slow the real work; my focus stayed on strategy.
+-->
+
+---
+
+<span class="kicker">My experiment · 3</span>
+
+## Two AIs, working against each other
+
+![w:440](assets/journey-loop.svg)
+
+- One AI **built**; a second **reviewed adversarially** — "verified, not just read": rebuilt under `-Werror` + sanitizers, traced the P&L by hand
+- It caught **real money-safety bugs**: TLS off on the live order path, entry fees missing from P&L, an overfit backtest, an unhedged carry trade
+- Across rounds → **12 CI-green PRs**; tests grew **2 → 9 suites**
+
+> The bottleneck was never "can AI build it?" — it was "is it correct and safe?" The adversarial loop is what closed that gap.
+
+<!--
+Speaker: Step 3 — the punchline. A second AI reviewing the first, adversarially, is where production quality came from. It caught money-safety bugs the coder shipped. My role shifted from author to director — setting constraints and arbitrating between two AIs.
+Extra points to sprinkle: the AI was honest not hype (at small size, fees dominate the edge — viable scalping needs a lower-fee venue); each review round hardened the codebase, so later changes were safer by construction.
 -->
 
 ---
@@ -342,31 +389,15 @@ Speaker: Brief. The chart makes the point — comparable profits, very different
 </div>
 <div>
 
+- **Trust is the new bottleneck** — adversarial review is the cheapest way to buy it
 - **Legacy stops being a prison** — rewrite cheaply, keep only what pays
-- **Research self-serves** — fewer ideas stuck in the engineering queue
 - **It's firm-wide** — not just engineering
 
 </div>
 </div>
 
 <!--
-Speaker: Observations, not instructions — what's on the table now, shown through what's already happening. Then the demo, then a calm close.
--->
-
----
-
-<span class="kicker">back to the experiment</span>
-
-## The autotrader
-
-<p style="text-align:center; margin:14px 0;"><span style="display:inline-block; border:2px solid #5fc59a; border-radius:14px; padding:14px 36px; font-size:34px; font-weight:700; letter-spacing:2px; color:#7fd9b0;">LIVE ON BINANCE</span></p>
-
-- It's **connected to Binance**, scalping **BTC** on momentum signals — and **placing trades**
-- Built by an agent **while we talked**: the connector, the signals, the order logic, the tests
-- One prompt, one session — an idea **in the market by the end of it**
-
-<!--
-Speaker: Switch to the running bot. Show the trades / logs and narrate what it built. Keep it matter-of-fact: "this used to be weeks of work." Fall back to the recording if needed.
+Speaker: Observations, not instructions — what's on the table now, shown through what's already happening and what I saw first-hand.
 -->
 
 ---
@@ -375,12 +406,12 @@ Speaker: Switch to the running bot. Show the trades / logs and narrate what it b
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-# Where AI really moves the needle is speed.
+# Building got cheap. The work is trust.
 
-## How fast a desk can take an idea to market is becoming the thing that separates firms. The tools are here — for anyone.
+## AI can take an idea to market remarkably fast — the bottleneck shifts to making it correct and safe. That's solvable too, and the tools are here for anyone.
 
 <!--
-Speaker: A calm close, not a challenge. State it, pause, and open it up for discussion. No ultimatum.
+Speaker: A calm close, drawn straight from the experiment. State it, pause, open it up for discussion.
 -->
 
 ---
@@ -478,14 +509,13 @@ Speaker: Reference material for Q&A — three buckets. Leave up while questions 
 
 ## Sources & method
 
+- **My experiment (Part 4):** first-hand — an AI-built C++20 crypto scalper, adversarially reviewed by a second AI
 - **Optiver / IMC (Part 3):** my own insider perspective — directional, not public disclosures
 - **XTX:** Companies House (`09415174`, `12300034`, `12832334`); FX News Group; Finance Magnates; xtxmarkets.com
-- **TradFi:** CoinDesk, Bloomberg, Fortune, company disclosures (Citadel, Jane Street, Bridgewater, Two Sigma, HRT, Man AHL, JPMorgan)
-- **Economy:** Anthropic & GitHub productivity research; AWS; OpenAI case studies; DeepMind; analyst market reports
-- **Crypto:** company statements; AWS/Google Cloud case studies; Messari; 1kx
+- **TradFi / Economy / Crypto:** CoinDesk, Bloomberg, Fortune; Anthropic & GitHub research; AWS; OpenAI; DeepMind; Messari; 1kx
 
 <span class="src">Full URL list in <code>sources.md</code>. Key: unbadged = sourced · <span class="badge i">I</span> inference/insider · <span class="badge m">M</span> hype-flagged. Verify headline figures before presenting.</span>
 
 <!--
-Speaker: Close on rigour. Part 3 is recollection, not citation — that honesty protects you.
+Speaker: Close on rigour. Part 3 is recollection; Part 4 is first-hand.
 -->
