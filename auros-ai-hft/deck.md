@@ -9,8 +9,6 @@ footer: 'AI in trading & engineering · prepared for Auros · confidential draft
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-![w:320](assets/cover-heptagon.svg)
-
 # The state of AI in trading
 
 ## Where it actually is — and how one firm is using it
