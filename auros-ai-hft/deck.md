@@ -11,14 +11,14 @@ footer: 'AI in trading & engineering · prepared for Auros · confidential draft
 
 ![w:320](assets/cover-heptagon.svg)
 
-# A tenth of the people
+# The state of AI in trading
 
-## What AI is doing to trading & engineering — and the firm that already proved it
+## Where it actually is — and how one firm is using it
 
 <span class="small muted">Prepared for Auros · June 2026</span>
 
 <!--
-Speaker: Let the cover sit. The title is the whole talk in four words. Don't explain it yet.
+Speaker: A calm open. The title says it plainly — no theatrics.
 -->
 
 ---
@@ -27,36 +27,36 @@ Speaker: Let the cover sit. The title is the whole talk in four words. Don't exp
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-<span class="kicker">where we're going</span>
+<span class="kicker">why this, why now</span>
 
-# Optiver-level revenue. A tenth of the people.
+# AI is changing how fast a desk can build
 
-## You've probably never heard of them. By the end of tonight you'll know exactly how — and why it's now your game too.
+## I'm not here to tell you your business — just to show you where AI actually is, what it's doing to engineering teams, and how Optiver is using it.
 
-<span class="small muted">Tonight: where AI actually is · what it does to our teams · and the firm that proves it.</span>
+<span class="small muted">Three parts: the state of AI · what it does to our teams · a case study.</span>
 
 <!--
-Speaker: COLD OPEN — do not warm up. Say line one, pause, let "a tenth of the people" land. That's XTX, but don't name them yet — the reveal is Part 4. Promise the payoff, then go straight into the state of AI.
+Speaker: Measured framing — scout, not consultant: here's what I'm seeing, you'll know what fits. Then kick off the demo on the next slide.
 -->
 
 ---
 
-<span class="kicker">Live · starting now</span>
+<span class="kicker">a quick experiment, running in the background</span>
 
 ## Let's put it to the test
 
 <p style="text-align:center; margin:14px 0;"><span style="display:inline-block; border:2px solid #e6ab57; border-radius:14px; padding:14px 36px; font-size:34px; font-weight:700; letter-spacing:2px; color:#f0c074;">AGENT BUILDING&nbsp;…&nbsp;LIVE</span></p>
 
-- Right now I'm setting an **AI agent** loose on a real task: a **BTC autotrader** that connects to **Binance** and scalps on a **couple of momentum signals**
-- It builds in the **background** while we talk
-- The bet: by the time I finish, there's a **strategy live in the market** — written, tested, trading
+- While we talk, I've set an **AI agent** on a real task: a small **BTC autotrader** that connects to **Binance** and scalps on a **couple of momentum signals**
+- It builds in the **background** — we'll check back at the end
+- A simple test of one question: how fast can an idea get to market?
 
 <!--
-Speaker: FIRST mention of the demo. Just before this slide, kick the agent off in a terminal you can return to, using your prepared plan/prompt.
+Speaker: Just before this slide, kick the agent off in a terminal you can return to, using your prepared plan/prompt.
 SAFETY: use Binance testnet (testnet.binance.vision) or paper / tiny size — never full-size real capital live on stage. Throwaway API key: trade-only, no withdrawals, IP-restricted.
 Signals: keep it simple — e.g. fast/slow EMA crossover + RSI, or order-book imbalance.
 Fallback: have a pre-recorded successful run ready in case wifi / login / venue fails.
-Then DON'T mention it again until the reveal at the end.
+Then leave it until the reveal at the end.
 -->
 
 ---
@@ -68,7 +68,7 @@ Then DON'T mention it again until the reveal at the end.
 ## The state of AI
 
 <!--
-Speaker: Quick, current, shared vocabulary. Set the pace before we get tactical.
+Speaker: Quick, current, shared vocabulary.
 -->
 
 ---
@@ -116,13 +116,13 @@ Speaker: Defuse jargon fast. The edge in trading lives across all of it — keep
 
 ## What's actually true right now
 
-- **The pace is absurd** — last year's state-of-the-art is this year's free tier
-- **Anthropic's own code is now mostly written by Claude** — the toolmakers eat their own cooking
-- **Inference is ~10× cheaper every year** — capability-per-dollar in free-fall (the good kind)
-- **It's horizontal** — the same model does code, law, medicine *and* markets. This is electricity, not an app.
+- **The pace is fast** — last year's state-of-the-art is this year's commodity
+- **Anthropic's own code is now mostly written by Claude** — the toolmakers use their own tools
+- **Inference keeps getting cheaper** — capability per dollar falls steadily, year on year
+- **It's general-purpose** — the same model does code, law, medicine and markets; more like electricity than an app
 
 <!--
-Speaker: Fewer, harder facts. The one to hammer: any plan that assumes today's limits is wrong within two quarters. Build for where it's going.
+Speaker: Measured facts. The one worth holding: any plan that assumes today's limits will likely be wrong within a couple of quarters.
 -->
 
 ---
@@ -133,10 +133,10 @@ Speaker: Fewer, harder facts. The one to hammer: any plan that assumes today's l
 
 ![w:540](assets/ai-adoption.svg)
 
-> Half of new code at serious engineering shops is already machine-written. That's the floor — not the ceiling.
+> A large share of new code at serious engineering shops is already machine-written — with humans on review.
 
 <!--
-Speaker: Concrete proof of "it's here." A quarter-to-a-half of new code, with humans on review. Baseline, not frontier.
+Speaker: Concrete proof it's here. Baseline, not frontier.
 -->
 
 ---
@@ -148,7 +148,7 @@ Speaker: Concrete proof of "it's here." A quarter-to-a-half of new code, with hu
 ## What it does to our teams
 
 <!--
-Speaker: The heart of the talk. The autotrader is building in the background — don't mention it yet; the payoff comes at the end.
+Speaker: The autotrader is building in the background — leave it until the end.
 -->
 
 ---
@@ -164,7 +164,7 @@ Speaker: The heart of the talk. The autotrader is building in the background —
 - The teams leaning in are shipping in a fraction of the time
 
 <!--
-Speaker: Observation, not instruction — the role is changing across the industry (architect / agent-manager). The assembly-to-C++ analogy lands because everyone here gets abstraction levels. Keep it "here's what's happening," not "here's what you must do."
+Speaker: Observation, not instruction — the role is changing across the industry (architect / agent-manager). The assembly-to-C++ analogy lands because everyone here gets abstraction levels.
 -->
 
 ---
@@ -179,7 +179,7 @@ Speaker: Observation, not instruction — the role is changing across the indust
 - Optiver's tell: rather than nurse old systems, the energy went into **new systematic trading, built fresh**
 
 <!--
-Speaker: The "code = P&L" idea, as an observation. AI removes most of the legacy grind; and because rewrites are cheap now, the bar for keeping old code is simply "does it make money?" Optiver's systematic-trading bet is the example — build fresh rather than carry legacy. Illustrate, don't prescribe.
+Speaker: The "code = P&L" idea, as an observation. AI removes most of the legacy grind; and because rewrites are cheap now, the bar for keeping old code is simply "does it make money?" Illustrate, don't prescribe.
 -->
 
 ---
@@ -195,7 +195,7 @@ Speaker: The "code = P&L" idea, as an observation. AI removes most of the legacy
 > The tooling is the easy part. The human change is the real work.
 
 <!--
-Speaker: The empathy + realism beat. Most failed rollouts are change-management failures, not tooling failures. Name that some of your best ICs may resist. This is your best line — give it a moment.
+Speaker: The empathy + realism beat. Most failed rollouts are change-management failures, not tooling failures. Give this line a moment.
 -->
 
 ---
@@ -221,7 +221,7 @@ Speaker: The empathy + realism beat. Most failed rollouts are change-management 
 </div>
 
 <!--
-Speaker: The practical "how," compressed. Multi-agent review is the non-obvious one. Tests + monorepo are AI-enablement, not overhead. Then widen the lens: every specialist function is on engineering's curve.
+Speaker: The practical "how," compressed. Multi-agent review is the non-obvious one. Tests + monorepo are AI-enablement, not overhead.
 -->
 
 ---
@@ -236,7 +236,7 @@ Speaker: The practical "how," compressed. Multi-agent review is the non-obvious 
 - Net effect: a **tighter loop between research and the market**
 
 <!--
-Speaker: The one the traders in the room will feel. The engineering queue was always the choke point between a research idea and a live test; AI loosens it. And the lovely irony — to get good output from agents you must write things down, so documentation finally improves. Ends Part 2; leads into what firms are actually doing.
+Speaker: The one the traders in the room will feel. And the irony — to get good output from agents you must write things down, so documentation improves. This sets up Optiver, whose whole strategy is built around it.
 -->
 
 ---
@@ -245,17 +245,31 @@ Speaker: The one the traders in the room will feel. The engineering queue was al
 <!-- _paginate: false -->
 
 # Part 3
-## What firms are actually doing
+## Case study: Optiver
 
 <!--
-Speaker: From principles to evidence — my read from inside Optiver and the wider industry. Say verbally these are recollections.
+Speaker: The centrepiece — my read from inside Optiver. Say verbally these are recollections.
 -->
 
 ---
 
-<span class="kicker">Optiver · my account <span class="badge i">Insider</span></span>
+<span class="kicker">Case study · Optiver</span>
 
-## From a standing start to serious money
+## Optiver's strategy, in three lines
+
+- **Time to market is the goal** — ship and adapt faster than the field
+- **Developer productivity is the byproduct** — it follows from the goal; it was never the point
+- **Remove the engineering bottleneck** — so traders & researchers can test ideas directly
+
+<!--
+Speaker: Anchor the whole section here. The order matters: they're chasing speed-to-market; productivity and self-serve research are consequences, not targets.
+-->
+
+---
+
+<span class="kicker">Case study · Optiver <span class="badge i">Insider</span></span>
+
+## Backing it with real money
 
 - When I left, Optiver was **only just starting** its AI journey
 - Now: **major investment in systematic trading** — ~**€500M NTI** on the Austin desk at that time
@@ -264,12 +278,12 @@ Speaker: From principles to evidence — my read from inside Optiver and the wid
 <span class="src">My recollection / insider perspective — figures approximate and not independently verified.</span>
 
 <!--
-Speaker: CONFIDENTIALITY — internal recollections of a former employer; say only what you're comfortable sharing. Keep figures round and "at that time." Story: a late starter now spending at scale.
+Speaker: CONFIDENTIALITY — internal recollections; say only what you're comfortable sharing. The point: the time-to-market strategy is backed with serious capital.
 -->
 
 ---
 
-<span class="kicker">Optiver · my account <span class="badge i">Insider</span></span>
+<span class="kicker">Case study · Optiver <span class="badge i">Insider</span></span>
 
 ## "It won't work here." It worked.
 
@@ -278,15 +292,15 @@ Speaker: CONFIDENTIALITY — internal recollections of a former employer; say on
 - It cleared the **"ATR moral hazard"** that had stalled this work for years
 - Today: **dedicated AI-enablement teams** with **partner-level sponsorship**
 
-> The "we're different" excuse died at the firm most likely to be right about it.
+> Speed to market beat the "we're different" objection.
 
 <!--
-Speaker: CONFIDENTIALITY applies. This is the reversal story — tell it with a beat before the punchline. The read-through for Auros: the "too specialised for this" objection is exactly what got disproven, once the top sponsored it.
+Speaker: CONFIDENTIALITY applies. The reversal — tell it with a beat. "Too specialised" got disproven once the goal was clearly time-to-market and the top sponsored it.
 -->
 
 ---
 
-<span class="kicker">Optiver & IMC · my account <span class="badge i">Insider</span></span>
+<span class="kicker">Case study · Optiver & IMC <span class="badge i">Insider</span></span>
 
 ## AI Apps Engineers, in the wild
 
@@ -294,122 +308,68 @@ Speaker: CONFIDENTIALITY applies. This is the reversal story — tell it with a 
 - Concrete wins: **faster triage** and **faster market re-entry** after issues
 - Removes a **stressful, mundane on-call task** from humans — and **improves availability metrics**
 
-> A boring, painful job done better by AI — that's where the early ROI actually shows up.
+> Faster re-entry is time-to-market by another name — and a horrible job got easier.
 
 <!--
-Speaker: The most relatable, least-hype example: operational toil. Availability up, a horrible job easier. This is the pattern to copy first at Auros.
+Speaker: The most relatable example: operational toil. Availability up, a painful job easier. Tie it back: re-entry speed is time-to-market.
 -->
 
 ---
 
-<!-- _class: section -->
-<!-- _paginate: false -->
+<span class="kicker">Optiver isn't alone</span>
 
-# Part 4
-## The reveal: XTX
+## A quick word on XTX
+
+- A pure-quant market maker that took a contrarian bet early: **out-predict, don't out-race**
+- Put **transformer techniques** on raw **PCAP** market data **before that was common**
+- Trades **50,000+ instruments** across asset classes — a **breadth** play, much like Auros
+- The point: the AI-first approach isn't theory — others have built real businesses on it
+
+<span class="src">xtxmarkets.com; Companies House. More on XTX in the appendix.</span>
 
 <!--
-Speaker: The firm from the cold open. Pay it off as a story.
+Speaker: Brief. XTX is supporting evidence, not the headline — Optiver is the case study. About a minute, then move on.
 -->
 
 ---
 
-<span class="kicker">Case study · XTX</span>
-
-## The contrarian bet
-
-- 2015: all of HFT was racing on **latency** — microwave towers, co-location, nanoseconds
-- **Alexander Gerko** bet the other way: **out-predict, don't out-race**
-- He put **transformer techniques** — the precursor to today's LLMs — on raw **PCAP** market data, **before the paper was even famous**
-- The wager: **prediction quality + compute** beats raw speed
-
-<!--
-Speaker: Tell it like a thriller. The villain is the arms race everyone else ran. Gerko (maths olympiad) zigs. The "transformers on PCAP before it was cool" line is the hook — then turn the page to the payoff.
--->
-
----
-
-<span class="kicker">Case study · XTX</span>
-
-## The payoff
-
-![w:660](assets/xtx-revenue-timeline.svg)
-
-> **XTX's revenue climbed to match Optiver's — on roughly a tenth of the headcount.** ~£15M of revenue per employee, close to 10× Optiver's.
-
-<span class="src">XTX revenue bars (turnover) + headcount line; Optiver shown as 2025 reference (NTI ≈£3.9bn / €4.6bn; ~2,600 staff). €→£ approx; 2016–19 single entity, 2020+ combined.</span>
-
-<!--
-Speaker: This is the reveal the whole talk has been building to. Let the gap between the two lines speak: billions in revenue, a few hundred people. Pause on it.
--->
-
----
-
-<span class="kicker">Case study · XTX</span>
-
-## Why it rhymes with Auros
+## Where this leaves us
 
 <div class="cols">
 <div>
 
-- Prices **50,000+ instruments** across equities, fixed income, FX, commodities **and crypto**
-- **$250bn traded/day across 35 countries**; deep liquidity in **10,000+ assets**
-- A **breadth** play — *not* options-style depth (not competitive with options trading as at 2025)
-
-</div>
-<div class="card">
-
-### The parallel
-Breadth across many instruments and venues, won with **models and connectivity** rather than options-style depth — that's **Auros's game too.**
-
-</div>
-</div>
-
-<span class="src">Figures: xtxmarkets.com — over 50,000 instruments · 10,000+ assets · $250bn/day · 35 countries.</span>
-
-<!--
-Speaker: Bring it home. XTX's edge — breadth + ML + connectivity across a huge instrument universe — is structurally close to crypto market making. The lesson travels directly.
--->
-
----
-
-## What this makes possible
-
-<div class="cols">
-<div>
-
-- **Strategies live in days, not quarters** — the demo wasn't a trick
-- **Small teams, huge surface area** — XTX's tenth-of-the-people is the proof
-- **The boring toil, handled** — triage, re-entry, connectivity (Optiver & IMC already do this)
+- **Ideas reach the market faster** — the prize Optiver is chasing
+- **Productivity follows** — more output per engineer, as a byproduct
+- **The boring toil gets handled** — triage, re-entry, connectivity
 
 </div>
 <div>
 
 - **Legacy stops being a prison** — rewrite cheaply, keep only what pays
-- **It compounds** — the firms leaning in pull away a little more each quarter
-- **Every function, not just engineering** — the same curve, firm-wide
+- **Research self-serves** — fewer ideas stuck in the engineering queue
+- **It's firm-wide** — not just engineering
 
 </div>
 </div>
 
 <!--
-Speaker: Concrete, quarter-sized asks. Then the payoff, then the close.
+Speaker: Observations, not instructions — what's on the table now, shown through what's already happening. Then the demo, then a calm close.
 -->
 
 ---
 
-<span class="kicker">Live · the payoff</span>
+<span class="kicker">back to the experiment</span>
 
-## Remember the autotrader?
+## The autotrader
 
 <p style="text-align:center; margin:14px 0;"><span style="display:inline-block; border:2px solid #5fc59a; border-radius:14px; padding:14px 36px; font-size:34px; font-weight:700; letter-spacing:2px; color:#7fd9b0;">LIVE ON BINANCE</span></p>
 
 - It's **connected to Binance**, scalping **BTC** on momentum signals — and **placing trades**
-- Built by an agent **during this talk**: the connector, the signals, the order logic, the tests
-- One prompt. One session. **A live strategy by the end of the hour.**
+- Built by an agent **while we talked**: the connector, the signals, the order logic, the tests
+- One prompt, one session — an idea **in the market by the end of it**
 
 <!--
-Speaker: THE PAYOFF — switch to the running bot. Show the trades / PnL / logs and narrate what it built. The line: "this used to be weeks of work for a team — it happened while I talked." Fall back to the recording if needed. Then the close.
+Speaker: Switch to the running bot. Show the trades / logs and narrate what it built. Keep it matter-of-fact: "this used to be weeks of work." Fall back to the recording if needed.
 -->
 
 ---
@@ -418,12 +378,12 @@ Speaker: THE PAYOFF — switch to the running bot. Show the trades / PnL / logs 
 <!-- _paginate: false -->
 <!-- _footer: '' -->
 
-# A tenth of the people.
+# Where AI really moves the needle is speed.
 
-## That used to be XTX's secret. It isn't anymore — it's on the table for anyone willing to pick it up.
+## How fast a desk can take an idea to market is becoming the thing that separates firms. The tools are here — for anyone.
 
 <!--
-Speaker: The mic drop. Callback to the open. Say it, hold the beat, stop talking. Don't undercut it with "any questions?" — let it sit, then take questions off the appendix.
+Speaker: A calm close, not a challenge. State it, pause, and open it up for discussion. No ultimatum.
 -->
 
 ---
@@ -447,10 +407,10 @@ Speaker: Reference material for Q&A — three buckets. Leave up while questions 
 <div class="cols">
 <div>
 
+- **XTX** — ~£3.9bn revenue on ~260 staff; 25k GPUs, transformers
 - **Citadel Securities** — AI spend rising; entered **crypto market-making** (Feb 2025)
 - **Jane Street** — **$6B** CoreWeave AI-compute commitment
 - **Bridgewater** — **$2B** "AIA" ML fund
-- **XTX** — 25k GPUs, transformers (see case study)
 
 </div>
 <div>
@@ -521,11 +481,11 @@ Speaker: Reference material for Q&A — three buckets. Leave up while questions 
 
 ## Sources & method
 
+- **Optiver / IMC (Part 3):** my own insider perspective — directional, not public disclosures
 - **XTX:** Companies House (`09415174`, `12300034`, `12832334`); FX News Group; Finance Magnates; xtxmarkets.com
 - **TradFi:** CoinDesk, Bloomberg, Fortune, company disclosures (Citadel, Jane Street, Bridgewater, Two Sigma, HRT, Man AHL, JPMorgan)
 - **Economy:** Anthropic & GitHub productivity research; AWS; OpenAI case studies; DeepMind; analyst market reports
 - **Crypto:** company statements; AWS/Google Cloud case studies; Messari; 1kx
-- **Optiver / IMC (Part 3):** my own insider perspective — directional, not public disclosures
 
 <span class="src">Full URL list in <code>sources.md</code>. Key: unbadged = sourced · <span class="badge i">I</span> inference/insider · <span class="badge m">M</span> hype-flagged. Verify headline figures before presenting.</span>
 
