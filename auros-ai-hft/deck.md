@@ -314,19 +314,18 @@ Speaker: The most relatable example: operational toil. Availability up, a painfu
 
 ---
 
-<span class="kicker">Optiver isn't alone</span>
+<span class="kicker">Optiver isn't alone · XTX</span>
 
-## A quick word on XTX
+## A closer look at XTX
 
-- A pure-quant market maker that took a contrarian bet early: **out-predict, don't out-race**
-- Put **transformer techniques** on raw **PCAP** market data **before that was common**
-- Trades **50,000+ instruments** across asset classes — a **breadth** play, much like Auros
-- The point: the AI-first approach isn't theory — others have built real businesses on it
+![w:660](assets/xtx-revenue-timeline.svg)
 
-<span class="src">xtxmarkets.com; Companies House. More on XTX in the appendix.</span>
+- The early bet — **transformers on PCAP**, predict-not-race — built profits near Optiver's, on a far smaller team
+
+<span class="src">Net profit (bars; Optiver from 2021, €→£ approx) + approximate headcount (lines). Markers: "Attention" paper (2017) &amp; COVID (2020). Sources: Companies House / press.</span>
 
 <!--
-Speaker: Brief. XTX is supporting evidence, not the headline — Optiver is the case study. About a minute, then move on.
+Speaker: Brief. The chart makes the point — comparable profits, very different headcount, with the 2017 paper and COVID marked. XTX is supporting evidence; Optiver is the case study. About a minute.
 -->
 
 ---
