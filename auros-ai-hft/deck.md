@@ -92,18 +92,6 @@ Speaker: Evidence of the velocity — none of these existed in this form a coupl
 
 ---
 
-## AI vs ML vs LLMs — the same family
-
-![w:560](assets/ai-ml-llm.svg)
-
-<span class="src">So we use words the same way: "AI" is the field, "ML" learns from data, "deep learning" is neural nets (incl. transformers), "LLMs/GenAI" are the frontier. Trading uses the whole stack — not just chatbots.</span>
-
-<!--
-Speaker: Defuse jargon fast — keep this to ~30 seconds.
--->
-
----
-
 <span class="kicker">Part 1 · the proof</span>
 
 ## It's already writing the code
