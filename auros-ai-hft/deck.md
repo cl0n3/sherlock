@@ -125,6 +125,7 @@ Speaker: From the macro to the daily reality of building software.
 ![w:520](assets/ttm-compression.svg)
 
 - The work is moving from **writing code** to **directing and reviewing** the agents that write it
+- Writing in **plain language** forces you onto the **problem to solve**, not **how to solve it** — you state the intent; the agent handles the mechanism
 - It's a step up the abstraction ladder — much like the move from **assembly to C++**
 - The teams leaning in are shipping in a fraction of the time
 
