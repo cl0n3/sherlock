@@ -381,6 +381,23 @@ Extra points to sprinkle: the AI was honest not hype (at small size, fees domina
 
 ---
 
+<span class="kicker">My experiment · the result</span>
+
+## It runs — live, making markets
+
+![w:560](assets/experiment-dashboard.svg)
+
+- Quoting **both sides on live BTCUSDT** — **1,856 fills**, inventory and risk under control
+- Honest, not hype: at this size **fees dominate the edge** — the AI's own analysis surfaced that, rather than overselling a "winning" strategy
+
+<span class="src">Live console of the AI-built mean-reversion maker (paper / testnet).</span>
+
+<!--
+Speaker: The capstone — here it is, actually running: quoting both sides, managing inventory, 1,856 fills. Be honest about the result — the realized figure is in ticks, and at this size fees dominate; the AI flagged that itself. The win was the build-and-verify journey, not a money printer.
+-->
+
+---
+
 ## Where this leaves us
 
 <div class="cols">
