@@ -11,7 +11,7 @@ footer: 'AI in trading & engineering · prepared for Auros · confidential draft
 
 # Using AI
 
-## Where it actually is in trading — and what happened when I tried it myself
+## Trading with AI, and what happened when I tried it
 
 <span class="small muted">Prepared for Auros · June 2026</span>
 
