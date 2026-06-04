@@ -107,7 +107,7 @@ Speaker: Defuse jargon fast — keep this to ~30 seconds.
 
 ![w:540](assets/ai-adoption.svg)
 
-> A large share of new code at serious engineering shops is already machine-written — with humans on review.
+> From ~a quarter of new code at mainstream firms to **~90% at the AI-native frontier** (Anthropic, via Claude Code) — already, with humans on review.
 
 <!--
 Speaker: Concrete proof it's here. Baseline, not frontier.
