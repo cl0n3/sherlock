@@ -21,20 +21,17 @@ Speaker: A calm open. The title says it plainly.
 
 ---
 
-<!-- _class: lead -->
-<!-- _paginate: false -->
-<!-- _footer: '' -->
+<span class="kicker">overview</span>
 
-<span class="kicker">why this, why now</span>
+## What I'll cover
 
-# AI is changing how fast a desk can build
-
-## I'm not here to tell you your business — just to show you where AI actually is, what it's doing to engineering teams, how Optiver is using it, and what happened when I tried it myself.
-
-<span class="small muted">The state of AI · what it does to our teams · a case study · and an experiment of my own.</span>
+1. **The pace of change** — unprecedented in magnitude and velocity, with implications across the whole economy
+2. **What software engineering looks like now** — measuring the speed-up (Stake / DORA), and why great people matter more
+3. **Optiver & XTX** — how serious trading firms are actually using AI
+4. **My experiment** — a live Binance bot, built to test the thesis myself
 
 <!--
-Speaker: Measured framing — scout, not consultant: here's what I'm seeing, you'll know what fits.
+Speaker: The roadmap. Four beats: general → specific → personal. No preamble beyond this.
 -->
 
 ---
@@ -43,10 +40,24 @@ Speaker: Measured framing — scout, not consultant: here's what I'm seeing, you
 <!-- _paginate: false -->
 
 # Part 1
-## The state of AI
+## The pace of change
 
 <!--
-Speaker: Quick, current, shared vocabulary.
+Speaker: Set the scale before anything else.
+-->
+
+---
+
+<span class="kicker">Part 1 · the pace</span>
+
+## Unprecedented — in magnitude and velocity
+
+- We've **never** seen a technology arrive this capable, this fast — it's outrunning the PC, the internet, mobile and cloud
+- Last year's state-of-the-art is **this year's commodity**; capability per dollar keeps falling
+- And it's **general-purpose** — code, law, medicine, markets — so the implications reach **across the whole economy**, not one corner of it
+
+<!--
+Speaker: Point 1. Lead with the scale — nothing has emerged at this magnitude AND this velocity together. Then the economic reach: this isn't a dev-tools story, it's an everything story.
 -->
 
 ---
@@ -73,7 +84,7 @@ Speaker: Quick, current, shared vocabulary.
 > These aren't autocomplete. They read a codebase, plan, edit across files, run the tests, and open the PR.
 
 <!--
-Speaker: The shift: the unit of work went from "a suggestion" to "a task." A year ago, demos. Now, production code daily.
+Speaker: Evidence of the velocity — none of these existed in this form a couple of years ago. The unit of work went from "a suggestion" to "a task."
 -->
 
 ---
@@ -85,22 +96,7 @@ Speaker: The shift: the unit of work went from "a suggestion" to "a task." A yea
 <span class="src">So we use words the same way: "AI" is the field, "ML" learns from data, "deep learning" is neural nets (incl. transformers), "LLMs/GenAI" are the frontier. Trading uses the whole stack — not just chatbots.</span>
 
 <!--
-Speaker: Defuse jargon fast. The edge in trading lives across all of it — keep this to ~30 seconds.
--->
-
----
-
-<span class="kicker">Part 1 · the pace</span>
-
-## What's actually true right now
-
-- **The pace is fast** — last year's state-of-the-art is this year's commodity
-- **Anthropic's own code is now mostly written by Claude** — the toolmakers use their own tools
-- **Inference keeps getting cheaper** — capability per dollar falls steadily, year on year
-- **It's general-purpose** — the same model does code, law, medicine and markets; more like electricity than an app
-
-<!--
-Speaker: Measured facts. The one worth holding: any plan that assumes today's limits will likely be wrong within a couple of quarters.
+Speaker: Defuse jargon fast — keep this to ~30 seconds.
 -->
 
 ---
@@ -123,10 +119,10 @@ Speaker: Concrete proof it's here. Baseline, not frontier.
 <!-- _paginate: false -->
 
 # Part 2
-## What it does to our teams
+## What software engineering looks like now
 
 <!--
-Speaker: The heart of the talk.
+Speaker: From the macro to the daily reality of building software.
 -->
 
 ---
@@ -147,6 +143,38 @@ Speaker: Observation, not instruction — the role is changing across the indust
 
 ---
 
+<span class="kicker">What it looks like now · measuring it</span>
+
+## We can measure the speed-up — Stake & DORA
+
+- At **Stake**, we tracked the AI rollout with **DORA metrics** — deploy frequency, lead time, change-fail rate, time-to-restore
+- DORA measures delivery as an **outcome, not a feeling** — so the speed-up is something you can *prove*
+- The direction was unambiguous: **more changes, shipped faster**, as the tooling landed
+
+> Velocity you can measure beats velocity you assert.
+
+<!--
+Speaker: Drop in your real Stake DORA numbers here (deploy frequency before/after, lead-time cut). First-person credibility — you did this.
+-->
+
+---
+
+<span class="kicker">What it looks like now · people</span>
+
+## AI is an amplifier — so great people matter more
+
+- AI multiplies what a strong engineer can do — one good person now ships like a small team
+- But it amplifies **judgment too**: weak calls ship faster, and more confidently
+- And everyone's suddenly **managing agents** — a real transition, and some won't make the leap
+
+> The tooling is the easy part. Great people — and their judgment — are the moat.
+
+<!--
+Speaker: The key point: AI raises the ceiling for your best people and the risk from your weakest. So you hire and keep great people — AI doesn't replace that, it raises the stakes on it.
+-->
+
+---
+
 <span class="kicker">The economics of code</span>
 
 ## Legacy is only worth it if it pays
@@ -158,22 +186,6 @@ Speaker: Observation, not instruction — the role is changing across the indust
 
 <!--
 Speaker: The "code = P&L" idea, as an observation. Illustrate, don't prescribe.
--->
-
----
-
-<span class="kicker">The catch</span>
-
-## Everyone's a manager overnight
-
-- Hand every engineer a team of agents and you've effectively made them **all managers** — with no training
-- It's a real transition: delegation, review, trust, letting go of the keyboard
-- And **some won't want to make that leap** — which tends to surface fast
-
-> The tooling is the easy part. The human change is the real work.
-
-<!--
-Speaker: The empathy + realism beat. Most failed rollouts are change-management failures, not tooling failures.
 -->
 
 ---
