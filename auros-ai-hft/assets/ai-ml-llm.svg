@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+  <!-- AI (outer) -->
+  <rect x="24" y="24" width="672" height="412" rx="18" fill="#101824" stroke="#2a394e" stroke-width="1.5"/>
+  <text x="46" y="52" fill="#93a4b8" font-size="16" font-weight="600" letter-spacing="2">ARTIFICIAL INTELLIGENCE</text>
+  <text x="46" y="72" fill="#6f8197" font-size="12.5">rules · search · planning — machines doing "smart" things</text>
+
+  <!-- ML -->
+  <rect x="100" y="80" width="520" height="300" rx="16" fill="#14202f" stroke="#36506a" stroke-width="1.5"/>
+  <text x="122" y="108" fill="#aebfd2" font-size="15" font-weight="600" letter-spacing="1.5">MACHINE LEARNING</text>
+  <text x="122" y="127" fill="#7e91a7" font-size="12.5">learns patterns from data instead of being hand-coded</text>
+
+  <!-- Deep learning -->
+  <rect x="178" y="135" width="364" height="190" rx="14" fill="#192a3b" stroke="#3f5d78" stroke-width="1.5"/>
+  <text x="200" y="162" fill="#c5d6e6" font-size="14" font-weight="600" letter-spacing="1">DEEP LEARNING</text>
+  <text x="200" y="180" fill="#8aa0b6" font-size="12.5">neural networks — incl. transformers</text>
+
+  <!-- LLMs / GenAI (inner, highlighted) -->
+  <rect x="262" y="188" width="196" height="112" rx="12" fill="rgba(92,184,168,0.16)" stroke="#5cb8a8" stroke-width="2"/>
+  <text x="360" y="228" text-anchor="middle" fill="#8fd0c4" font-size="20" font-weight="700">LLMs / GenAI</text>
+  <text x="360" y="252" text-anchor="middle" fill="#cfe6e0" font-size="13">Claude · GPT · Gemini</text>
+  <text x="360" y="272" text-anchor="middle" fill="#7e91a7" font-size="12" font-style="italic">today's frontier</text>
+</svg>

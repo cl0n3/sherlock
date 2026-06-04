@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 390" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+  <rect x="8" y="14" width="714" height="362" rx="10" fill="#0c1016" stroke="#283142" stroke-width="1.5"/>
+
+  <text xml:space="preserve" x="20" y="42"><tspan fill="#a78bfa" font-weight="bold">MEAN-REVERSION MAKER</tspan><tspan fill="#ffffff" font-weight="bold">  BTCUSDT</tspan><tspan fill="#6b7a90">   (live)</tspan></text>
+  <text xml:space="preserve" x="20" y="64"><tspan fill="#8b9bb0"> mode </tspan><tspan fill="#a78bfa" font-weight="bold">REVERT</tspan><tspan fill="#8b9bb0">          anchor m </tspan><tspan fill="#ffffff" font-weight="bold">64395.58</tspan><tspan fill="#8b9bb0">   sigma </tspan><tspan fill="#cbd5e1">6.20</tspan><tspan fill="#8b9bb0">   z </tspan><tspan fill="#6fcf6f">+2.65</tspan></text>
+
+  <line x1="20" y1="78" x2="690" y2="78" stroke="#283142" stroke-width="1"/>
+
+  <text xml:space="preserve" x="20" y="100"><tspan fill="#8b9bb0"> our ASK </tspan><tspan fill="#e8736b">64412.01</tspan><tspan fill="#8b9bb0">  [</tspan><tspan fill="#5cb8a8">==============</tspan><tspan fill="#3a4658">.</tspan><tspan fill="#8b9bb0">]  1.0t</tspan></text>
+  <text xml:space="preserve" x="20" y="122"><tspan fill="#ffffff" font-weight="bold"> market</tspan><tspan fill="#8b9bb0">  bid </tspan><tspan fill="#6fcf6f">64411.99</tspan><tspan fill="#8b9bb0"> / ask </tspan><tspan fill="#e8736b">64412.00</tspan><tspan fill="#8b9bb0">   mid </tspan><tspan fill="#ffffff" font-weight="bold">64411.99</tspan></text>
+  <text xml:space="preserve" x="20" y="144"><tspan fill="#8b9bb0"> our BID </tspan><tspan fill="#6fcf6f">64395.60</tspan><tspan fill="#8b9bb0">  [</tspan><tspan fill="#3a4658">..............</tspan><tspan fill="#8b9bb0">]  1639.0t</tspan></text>
+
+  <line x1="20" y1="158" x2="690" y2="158" stroke="#283142" stroke-width="1"/>
+
+  <text xml:space="preserve" x="20" y="180"><tspan fill="#8b9bb0"> inv </tspan><tspan fill="#ffffff" font-weight="bold">-0.1100 BTC</tspan><tspan fill="#8b9bb0">   uPnL </tspan><tspan fill="#6fcf6f">+1.24</tspan><tspan fill="#8b9bb0">   realized </tspan><tspan fill="#6fcf6f">+506.52</tspan><tspan fill="#8b9bb0">   fills </tspan><tspan fill="#ffffff">1856</tspan></text>
+  <text xml:space="preserve" x="20" y="202"><tspan fill="#8b9bb0"> size </tspan><tspan fill="#e6ab57">0.0670 BTC</tspan><tspan fill="#6b7a90"> (~$4316)</tspan><tspan fill="#8b9bb0">  width </tspan><tspan fill="#cbd5e1">0.5t</tspan><tspan fill="#8b9bb0">  sens(z) </tspan><tspan fill="#e6ab57">3.0</tspan><tspan fill="#8b9bb0">  equilib </tspan><tspan fill="#cbd5e1">30</tspan></text>
+  <text xml:space="preserve" x="20" y="224"><tspan fill="#6b7a90"> breakouts 488   re-anchors 297</tspan></text>
+  <text xml:space="preserve" x="20" y="246"><tspan fill="#6b7a90"> -- trade tape (last 3 — profit vs mean anchor)  sum </tspan><tspan fill="#e8736b">-3.4t</tspan><tspan fill="#6b7a90"> ($-0.0022) --</tspan></text>
+
+  <text xml:space="preserve" x="20" y="268"><tspan fill="#6fcf6f">  BUY </tspan><tspan fill="#cbd5e1"> 0.0670 @ </tspan><tspan fill="#ffffff" font-weight="bold">64390.36</tspan><tspan fill="#8b9bb0">  m 64390.33  edge </tspan><tspan fill="#e8736b">-3.0t  adverse</tspan></text>
+  <text xml:space="preserve" x="20" y="290"><tspan fill="#e8736b">  SELL</tspan><tspan fill="#cbd5e1"> 0.0670 @ </tspan><tspan fill="#ffffff" font-weight="bold">64418.85</tspan><tspan fill="#8b9bb0">  m 64418.82  edge </tspan><tspan fill="#6fcf6f">+2.7t  favorable</tspan></text>
+  <text xml:space="preserve" x="20" y="312"><tspan fill="#6fcf6f">  BUY </tspan><tspan fill="#cbd5e1"> 0.0670 @ </tspan><tspan fill="#ffffff" font-weight="bold">64417.97</tspan><tspan fill="#8b9bb0">  m 64417.94  edge </tspan><tspan fill="#e8736b">-3.0t  adverse</tspan></text>
+
+  <text xml:space="preserve" x="20" y="352"><tspan fill="#5d6b7e">keys: + - size  [ ] width  , . sensitivity  ' ; equilib  space pause  r reset  q quit</tspan></text>
+</svg>

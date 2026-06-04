@@ -1,0 +1,51 @@
+name: Deploy deck to GitHub Pages
+
+on:
+  push:
+    branches: ["claude/laughing-ptolemy-pcwnI"]
+  workflow_dispatch:
+
+# Least-privilege permissions required to deploy to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # The deck is a single self-contained file (SVGs inlined, no external assets),
+      # so publishing it as index.html is all we need.
+      - name: Stage deck as site index
+        run: |
+          mkdir -p _site
+          cp auros-ai-hft/deck.html _site/index.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          # Attempt to enable Pages automatically (works if the repo is eligible:
+          # public, or private on a paid plan). If this can't enable it, enable
+          # Pages manually once: Settings → Pages → Source = "GitHub Actions".
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

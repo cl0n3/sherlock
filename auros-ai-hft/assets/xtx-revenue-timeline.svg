@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+  <!-- legend -->
+  <g font-size="12.5">
+    <rect x="92" y="14" width="14" height="14" rx="3" fill="#5cb8a8"/><text x="112" y="26" fill="#cbd5e1">XTX P&amp;L</text>
+    <rect x="200" y="14" width="14" height="14" rx="3" fill="#e6ab57"/><text x="220" y="26" fill="#cbd5e1">Optiver P&amp;L</text>
+    <line x1="340" y1="21" x2="366" y2="21" stroke="#a78bfa" stroke-width="2.5"/><text x="372" y="26" fill="#cbd5e1">XTX staff</text>
+    <line x1="452" y1="21" x2="478" y2="21" stroke="#8cc4f0" stroke-width="2.5"/><text x="484" y="26" fill="#cbd5e1">Optiver staff</text>
+  </g>
+
+  <!-- left gridlines (P&L) -->
+  <g stroke="#263244" stroke-width="1">
+    <line x1="90" y1="317.5" x2="830" y2="317.5"/>
+    <line x1="90" y1="235" x2="830" y2="235"/>
+    <line x1="90" y1="152.5" x2="830" y2="152.5"/>
+    <line x1="90" y1="70" x2="830" y2="70"/>
+  </g>
+  <!-- left y labels (P&L £bn) -->
+  <g fill="#94a3b8" font-size="12.5" text-anchor="end">
+    <text x="80" y="404">£0</text>
+    <text x="80" y="321">£0.5bn</text>
+    <text x="80" y="239">£1bn</text>
+    <text x="80" y="156">£1.5bn</text>
+    <text x="80" y="74">£2bn</text>
+  </g>
+  <text x="56" y="60" fill="#94a3b8" font-size="11">net profit</text>
+  <!-- right y labels (headcount) -->
+  <g fill="#9ab6d8" font-size="12.5" text-anchor="start">
+    <text x="838" y="404">0</text>
+    <text x="838" y="286">1,000</text>
+    <text x="838" y="168">2,000</text>
+    <text x="838" y="60" font-size="11">staff</text>
+  </g>
+
+  <!-- markers: 2017 (Attention) and 2020 (COVID) -->
+  <g stroke="#7e8aa0" stroke-width="1.2" stroke-dasharray="5 4">
+    <line x1="201" y1="70" x2="201" y2="400"/>
+    <line x1="423" y1="70" x2="423" y2="400"/>
+  </g>
+  <text x="201" y="62" text-anchor="middle" fill="#aeb6c6" font-size="11">"Attention" paper · 2017</text>
+  <text x="423" y="62" text-anchor="middle" fill="#aeb6c6" font-size="11">COVID · 2020</text>
+
+  <!-- XTX P&L bars (teal) -->
+  <g fill="#5cb8a8">
+    <rect x="103" y="390.1" width="22" height="9.9"/>
+    <rect x="177" y="390.1" width="22" height="9.9"/>
+    <rect x="251" y="380.2" width="22" height="19.8"/>
+    <rect x="325" y="376.9" width="22" height="23.1"/>
+    <rect x="399" y="325.7" width="22" height="74.3"/>
+    <rect x="473" y="289.4" width="22" height="110.6"/>
+    <rect x="547" y="218.5" width="22" height="181.5"/>
+    <rect x="621" y="261.4" width="22" height="138.6"/>
+    <rect x="695" y="188.8" width="22" height="211.2"/>
+    <rect x="769" y="117.8" width="22" height="282.2"/>
+  </g>
+  <!-- Optiver P&L bars (amber, 2021–25 reported) -->
+  <g fill="#e6ab57">
+    <rect x="499" y="264.7" width="22" height="135.3"/>
+    <rect x="573" y="218.5" width="22" height="181.5"/>
+    <rect x="647" y="236.6" width="22" height="163.4"/>
+    <rect x="721" y="206.9" width="22" height="193.1"/>
+    <rect x="795" y="150.8" width="22" height="249.2"/>
+  </g>
+
+  <!-- headcount lines -->
+  <polyline points="127,395.3 201,391.7 275,387.0 349,383.5 423,380.6 497,377.6 571,374.1 645,371.7 719,370.5 793,369.4"
+            fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+  <polyline points="127,293.9 201,276.2 275,252.7 349,229.1 423,199.6 497,176.0 571,146.6 645,123.0 719,105.3 793,93.6"
+            fill="none" stroke="#8cc4f0" stroke-width="2.5"/>
+  <circle cx="793" cy="369.4" r="3" fill="#a78bfa"/><text x="789" y="362" text-anchor="end" fill="#b9a6e8" font-size="11">≈260</text>
+  <circle cx="793" cy="93.6" r="3" fill="#8cc4f0"/><text x="789" y="88" text-anchor="end" fill="#a9c8ea" font-size="11">≈2,600</text>
+
+  <!-- x axis + year labels -->
+  <line x1="90" y1="400" x2="830" y2="400" stroke="#3a4658" stroke-width="1.5"/>
+  <g fill="#cbd5e1" font-size="12.5" text-anchor="middle">
+    <text x="127" y="419">2016</text><text x="201" y="419">2017</text><text x="275" y="419">2018</text>
+    <text x="349" y="419">2019</text><text x="423" y="419">2020</text><text x="497" y="419">2021</text>
+    <text x="571" y="419">2022</text><text x="645" y="419">2023</text><text x="719" y="419">2024</text><text x="793" y="419">2025</text>
+  </g>
+
+  <!-- footnote -->
+  <text x="90" y="450" fill="#94a3b8" font-size="11" font-style="italic">Net profit, £bn (bars; Optiver shown 2021–25 as reported, €→£ approx). Headcount (lines, approximate, group-wide). Sources: Companies House / press.</text>
+</svg>

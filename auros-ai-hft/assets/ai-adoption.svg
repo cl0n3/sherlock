@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 370" font-family="-apple-system, Segoe UI, Roboto, sans-serif">
+  <!-- gridlines -->
+  <g stroke="#263244" stroke-width="1">
+    <line x1="230" y1="36" x2="230" y2="290"/>
+    <line x1="365" y1="36" x2="365" y2="290"/>
+    <line x1="500" y1="36" x2="500" y2="290"/>
+    <line x1="635" y1="36" x2="635" y2="290"/>
+    <line x1="770" y1="36" x2="770" y2="290"/>
+  </g>
+  <!-- x labels -->
+  <g fill="#94a3b8" font-size="13" text-anchor="middle">
+    <text x="230" y="308">0%</text>
+    <text x="365" y="308">25%</text>
+    <text x="500" y="308">50%</text>
+    <text x="635" y="308">75%</text>
+    <text x="770" y="308">100%</text>
+  </g>
+  <!-- bars (5.4 px per %): Google ~28, GitHub 46, Coinbase 50, Anthropic ~90 -->
+  <g fill="#5cb8a8">
+    <rect x="230" y="48"  width="151" height="38"/>
+    <rect x="230" y="110" width="248" height="38"/>
+    <rect x="230" y="172" width="270" height="38"/>
+    <rect x="230" y="234" width="486" height="38"/>
+  </g>
+  <!-- company labels -->
+  <g fill="#cbd5e1" font-size="15.5" text-anchor="end">
+    <text x="215" y="72">Google</text>
+    <text x="215" y="134">GitHub</text>
+    <text x="215" y="196">Coinbase</text>
+    <text x="215" y="258">Anthropic</text>
+  </g>
+  <!-- value labels -->
+  <g fill="#8fd0c4" font-size="14.5" font-weight="700">
+    <text x="391" y="72">~25–30%</text>
+    <text x="488" y="134">46%</text>
+    <text x="510" y="196">50%*</text>
+    <text x="726" y="258">~90%</text>
+  </g>
+  <!-- footnote -->
+  <text x="230" y="334" fill="#94a3b8" font-size="11.5" font-style="italic">Share of new code AI-written / assisted (company-reported, 2024–26).</text>
+  <text x="230" y="350" fill="#94a3b8" font-size="11.5" font-style="italic">Google ≈25%+ new code (2024); GitHub Copilot; *Coinbase 2025 target; Anthropic ≈90% via Claude Code (internal — the toolmaker). Definitions vary.</text>
+</svg>
