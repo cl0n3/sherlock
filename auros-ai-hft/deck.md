@@ -52,9 +52,12 @@ Speaker: Set the scale before anything else.
 
 ## Unprecedented — in magnitude and velocity
 
-- We've **never** seen a technology arrive this capable, this fast — it's outrunning the PC, the internet, mobile and cloud
-- Last year's state-of-the-art is **this year's commodity**; capability per dollar keeps falling
-- And it's **general-purpose** — code, law, medicine, markets — so the implications reach **across the whole economy**, not one corner of it
+![w:560](assets/adoption-curve.svg)
+
+- **Velocity like nothing before** — ChatGPT reached 100M users in ~2 months, the fastest in history
+- **General-purpose** — code, law, medicine, markets — so the implications run **across the whole economy**
+
+<span class="src">Approx. time to 100M users; widely-reported figures.</span>
 
 <!--
 Speaker: Point 1. Lead with the scale — nothing has emerged at this magnitude AND this velocity together. Then the economic reach: this isn't a dev-tools story, it's an everything story.
@@ -147,14 +150,15 @@ Speaker: Observation, not instruction — the role is changing across the indust
 
 ## We can measure the speed-up — Stake & DORA
 
-- At **Stake**, we tracked the AI rollout with **DORA metrics** — deploy frequency, lead time, change-fail rate, time-to-restore
-- DORA measures delivery as an **outcome, not a feeling** — so the speed-up is something you can *prove*
-- The direction was unambiguous: **more changes, shipped faster**, as the tooling landed
+![w:560](assets/dora-convex.svg)
 
-> Velocity you can measure beats velocity you assert.
+- At **Stake**, we tracked the AI rollout with **DORA metrics** — and delivery velocity climbed, **faster as adoption deepened**
+- DORA measures delivery as an **outcome, not a feeling** — so you can *prove* the speed-up, not just claim it
+
+<span class="src">DORA: deploy frequency · lead time · change-fail rate · time-to-restore. Curve illustrative — replace with your real before/after numbers.</span>
 
 <!--
-Speaker: Drop in your real Stake DORA numbers here (deploy frequency before/after, lead-time cut). First-person credibility — you did this.
+Speaker: Drop in your real Stake DORA numbers (deploy frequency before/after, lead-time cut). First-person credibility — you did this. The curve is the shape: improvement that accelerates as the team leans in.
 -->
 
 ---
@@ -180,12 +184,12 @@ Speaker: The key point: AI raises the ceiling for your best people and the risk 
 ## Legacy is only worth it if it pays
 
 - AI makes legacy code far cheaper to **read, migrate and modernise** — the grind is largely automatable now
-- The deeper shift: **the only code worth its legacy overhead is code that makes money**
-- When a rewrite costs a fraction of what it used to, the calculus flips — firms are **willing to throw things out**
+- But **greenfield vs. legacy applies to AI too** — agents thrive on a clean rewrite and fight a tangled brownfield
+- The only code worth its legacy overhead is code that **makes money** — and with rewrites now cheap, firms will **throw the rest out**
 - Optiver's tell: rather than nurse old systems, the energy went into **new systematic trading, built fresh**
 
 <!--
-Speaker: The "code = P&L" idea, as an observation. Illustrate, don't prescribe.
+Speaker: The "code = P&L" idea, as an observation. And the greenfield-vs-legacy point: AI is far stronger on a clean build than on a tangled legacy base — which makes "rewrite fresh" even more attractive. Illustrate, don't prescribe.
 -->
 
 ---
